@@ -19,5 +19,14 @@
     "noImplicitThis": false,
     "strictNullChecks": true
   },
-  "include": ["src/**/*", "__tests__/**/*"]
+  "include": ["src/**/*", "__tests__/**/*", "examples/**/*", "./jest.config.ts"],
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "esm": true,
+    "compilerOptions": {
+      "module": "ESNext",
+      "moduleResolution": "nodenext"
+    }
+  },
 }
