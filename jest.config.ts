@@ -10,6 +10,7 @@ const config: Config = {
     '^(\\.{1,2}/.*)\\.(m)?js$': '$1',
   },
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(m)?ts$',
+  reporters: ['default', ['jest-junit', { outputDirectory: 'coverage' }]],
   coverageDirectory: 'coverage',
   collectCoverageFrom: [
     'src/**/*.ts',
