@@ -1,6 +1,6 @@
 import type { Config } from 'jest';
 
-const config : Config= {
+const config: Config = {
   testEnvironment: 'node',
   preset: 'ts-jest/presets/default-esm',
   transform: {
