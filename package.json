@@ -1,6 +1,6 @@
 {
   "name": "typedconf",
-  "version": "0.0.0",
+  "version": "1.0.0-0",
   "author": "Aaron Kelbsch",
   "description": "Properly typed configuration for your TypeScript project",
   "license": "MIT",
