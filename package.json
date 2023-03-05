@@ -1,9 +1,7 @@
 {
   "name": "typedconf",
   "version": "1.0.0-0",
-  "author": "Aaron Kelbsch",
   "description": "Properly typed configuration for your TypeScript project",
-  "license": "MIT",
   "type": "module",
   "repository": {
     "type": "git",
@@ -19,9 +17,10 @@
   "main": "./dist/typedconf.cjs",
   "module": "./dist/typedconf.module.js",
   "unpkg": "./dist/typedconf.umd.js",
-  "types": "./dist/src/index.d.ts",
   "exports": {
+    "types": "./dist/src/index.d.ts",
     "require": "./dist/typedconf.cjs",
+    "umd": "./dist/typedconf.umd.js",
     "default": "./dist/typedconf.modern.js"
   },
   "devDependencies": {
@@ -67,5 +66,7 @@
     "github": {
       "release": true
     }
-  }
+  },
+  "author": "Aaron Kelbsch",
+  "license": "MIT"
 }
