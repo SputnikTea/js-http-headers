@@ -19,7 +19,7 @@
   "main": "./dist/typedconf.cjs",
   "module": "./dist/typedconf.module.js",
   "unpkg": "./dist/typedconf.umd.js",
-  "types": "./dist/typedconf.d.ts",
+  "types": "./dist/src/index.d.ts",
   "exports": {
     "require": "./dist/typedconf.cjs",
     "default": "./dist/typedconf.modern.js"
