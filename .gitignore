@@ -3,6 +3,7 @@ logs
 *.log
 npm-debug.log*
 dist
+*.tgz
 
 # Dependencies
 node_modules/
