@@ -19,8 +19,8 @@ type Primitive = undefined | null | boolean | string | number;
 
 // Deeply make all fields optional
 type DeepOptional<T> =
-  T extends Primitive | any[] ? T | undefined // If primitive or array then return type
-  : {[P in keyof T]: DeepOptional<T[P]>} // Make this key optional and recurse
+  T extends Primitive | any[] ? T // If primitive or array then return type
+  : {[P in keyof T]?: DeepOptional<T[P]>} // Make this key optional and recurse
 
 // Deeply map all fields to a certain type
 type DeepMapToType<T, TargetType> = 
@@ -110,7 +110,7 @@ class AppliedConfigBuilder<ConfigScheme extends {}> {
    * @param applyConfig The static config to merge into this config
    * @returns the builder with the merged config type
    */
-  applyStaticConfig<StaticScheme extends Partial<ConfigScheme>>(
+  applyStaticConfig<StaticScheme extends DeepOptional<ConfigScheme>>(
     applyConfig: StaticScheme,
   ): AppliedConfigBuilder<
     ConfigScheme & DefineKeysOfBase<ConfigScheme, StaticScheme>

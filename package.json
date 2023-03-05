@@ -1,17 +1,26 @@
 {
   "name": "typedconf",
-  "version": "0.9.0",
-  "author": "Aaron Kelbsch",
+  "version": "1.0.0-1",
   "description": "Properly typed configuration for your TypeScript project",
-  "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aderinom/typedconf.git"
+  },
+  "keywords": [
+    "typescript",
+    "configuration",
+    "typed",
+    "config"
+  ],
   "source": "./src/index.ts",
   "main": "./dist/typedconf.cjs",
   "module": "./dist/typedconf.module.js",
   "unpkg": "./dist/typedconf.umd.js",
-  "types": "./dist/typedconf.d.ts",
   "exports": {
+    "types": "./dist/src/index.d.ts",
     "require": "./dist/typedconf.cjs",
+    "umd": "./dist/typedconf.umd.js",
     "default": "./dist/typedconf.modern.js"
   },
   "devDependencies": {
@@ -27,6 +36,7 @@
     "jest-junit": "^15.0.0",
     "microbundle": "^0.15.1",
     "prettier": "~2.8",
+    "release-it": "^15.7.0",
     "rimraf": "~3.0",
     "ts-jest": "~29.0",
     "ts-node": "^10.9.1",
@@ -42,14 +52,23 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
+    "--------------  ": "",
+    "release": "release-it",
     "-------------- ": "",
+    "prepublishOnly": "pnpm run test && pnpm run build:release",
     "clean": "rimraf coverage dist tmp",
-    "prebuild": "npm run lint",
     "lint": "eslint . --ext .ts --ext .mts",
     "prettier": "prettier --config .prettierrc --write ."
   },
   "dependencies": {
     "tslib": "~2.4"
   },
-  "packageManager": "pnpm@7.25.0"
+  "packageManager": "pnpm@7.25.0",
+  "release-it": {
+    "github": {
+      "release": true
+    }
+  },
+  "author": "Aaron Kelbsch",
+  "license": "MIT"
 }
