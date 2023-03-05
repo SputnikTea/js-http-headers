@@ -1,6 +1,6 @@
 {
   "name": "typedconf",
-  "version": "1.0.0-1",
+  "version": "1.0.0",
   "description": "Properly typed configuration for your TypeScript project",
   "type": "module",
   "repository": {
