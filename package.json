@@ -14,15 +14,10 @@
     "config"
   ],
   "source": "./src/index.ts",
-  "main": "./dist/typedconf.cjs",
-  "module": "./dist/typedconf.module.js",
-  "unpkg": "./dist/typedconf.umd.js",
-  "exports": {
-    "types": "./dist/src/index.d.ts",
-    "require": "./dist/typedconf.cjs",
-    "umd": "./dist/typedconf.umd.js",
-    "default": "./dist/typedconf.modern.js"
-  },
+  "typings": "./dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
   "devDependencies": {
     "@types/jest": "~29.2",
     "@types/node": "~18.14.2",

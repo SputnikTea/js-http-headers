@@ -6,6 +6,7 @@
     "moduleResolution": "nodenext",
     "rootDir": ".",
     "outDir": "dist",
+    "declarationDir": "dist",
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
     "alwaysStrict": true,
@@ -17,7 +18,8 @@
     "noUnusedParameters": true,
     "noImplicitAny": false,
     "noImplicitThis": false,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "declaration": true
   },
   "include": ["src/**/*", "__tests__/**/*", "examples/**/*", "./jest.config.ts"],
   "ts-node": {
