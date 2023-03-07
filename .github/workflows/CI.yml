@@ -34,7 +34,7 @@ jobs:
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v3.2.0
         env:
-          CC_TEST_REPORTER_ID: fdbdb8c41cee4e1a5b1b9c1978de3cd9106f41668eadbd3125bc90367cf3a1d5
+          CC_TEST_REPORTER_ID:  ${{ secrets.CC_TEST_REPORTER_ID }}
       - name: Analyze Test and/or Coverage Results
         uses: runforesight/foresight-test-kit-action@v1
         if: ${{ always() }}
