@@ -51,7 +51,7 @@ Result:
 
 ## Getting Started
 ```shell
-npm install tconf
+npm install typedconf
 ```
 
 ### Example
