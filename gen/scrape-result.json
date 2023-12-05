@@ -1,0 +1,5878 @@
+[
+    {
+        "enumName": "AopConfigUtils",
+        "values": [
+            {
+                "name": "AUTO_PROXY_CREATOR_BEAN_NAME",
+                "value": "org.springframework.aop.config.internalAutoProxyCreator"
+            }
+        ]
+    },
+    {
+        "enumName": "AopNamespaceUtils",
+        "values": [
+            {
+                "name": "PROXY_TARGET_CLASS_ATTRIBUTE",
+                "value": "proxy-target-class"
+            }
+        ]
+    },
+    {
+        "enumName": "ProxyFactoryBean",
+        "values": [
+            {
+                "name": "GLOBAL_SUFFIX",
+                "value": "*"
+            }
+        ]
+    },
+    {
+        "enumName": "DefaultAdvisorAutoProxyCreator",
+        "values": [
+            {
+                "name": "SEPARATOR",
+                "value": "."
+            }
+        ]
+    },
+    {
+        "enumName": "QuickTargetSourceCreator",
+        "values": [
+            {
+                "name": "PREFIX_COMMONS_POOL",
+                "value": ":"
+            },
+            {
+                "name": "PREFIX_PROTOTYPE",
+                "value": "!"
+            },
+            {
+                "name": "PREFIX_THREAD_LOCAL",
+                "value": "%"
+            }
+        ]
+    },
+    {
+        "enumName": "AsyncExecutionAspectSupport",
+        "values": [
+            {
+                "name": "DEFAULT_TASK_EXECUTOR_BEAN_NAME",
+                "value": "taskExecutor"
+            }
+        ]
+    },
+    {
+        "enumName": "CustomizableTraceInterceptor",
+        "values": [
+            {
+                "name": "PLACEHOLDER_ARGUMENT_TYPES",
+                "value": "$[argumentTypes]"
+            },
+            {
+                "name": "PLACEHOLDER_ARGUMENTS",
+                "value": "$[arguments]"
+            },
+            {
+                "name": "PLACEHOLDER_EXCEPTION",
+                "value": "$[exception]"
+            },
+            {
+                "name": "PLACEHOLDER_INVOCATION_TIME",
+                "value": "$[invocationTime]"
+            },
+            {
+                "name": "PLACEHOLDER_METHOD_NAME",
+                "value": "$[methodName]"
+            },
+            {
+                "name": "PLACEHOLDER_RETURN_VALUE",
+                "value": "$[returnValue]"
+            },
+            {
+                "name": "PLACEHOLDER_TARGET_CLASS_NAME",
+                "value": "$[targetClassName]"
+            },
+            {
+                "name": "PLACEHOLDER_TARGET_CLASS_SHORT_NAME",
+                "value": "$[targetClassShortName]"
+            }
+        ]
+    },
+    {
+        "enumName": "AotDetector",
+        "values": [
+            {
+                "name": "AOT_ENABLED",
+                "value": "spring.aot.enabled"
+            }
+        ]
+    },
+    {
+        "enumName": "ClassReader",
+        "values": [
+            {
+                "name": "EXPAND_FRAMES",
+                "value": "8"
+            },
+            {
+                "name": "SKIP_CODE",
+                "value": "1"
+            },
+            {
+                "name": "SKIP_DEBUG",
+                "value": "2"
+            },
+            {
+                "name": "SKIP_FRAMES",
+                "value": "4"
+            }
+        ]
+    },
+    {
+        "enumName": "ClassWriter",
+        "values": [
+            {
+                "name": "COMPUTE_FRAMES",
+                "value": "2"
+            },
+            {
+                "name": "COMPUTE_MAXS",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "enumName": "Opcodes",
+        "values": [
+            {
+                "name": "AALOAD",
+                "value": "50"
+            },
+            {
+                "name": "AASTORE",
+                "value": "83"
+            },
+            {
+                "name": "ACC_ABSTRACT",
+                "value": "1024"
+            },
+            {
+                "name": "ACC_ANNOTATION",
+                "value": "8192"
+            },
+            {
+                "name": "ACC_BRIDGE",
+                "value": "64"
+            },
+            {
+                "name": "ACC_DEPRECATED",
+                "value": "131072"
+            },
+            {
+                "name": "ACC_ENUM",
+                "value": "16384"
+            },
+            {
+                "name": "ACC_FINAL",
+                "value": "16"
+            },
+            {
+                "name": "ACC_INTERFACE",
+                "value": "512"
+            },
+            {
+                "name": "ACC_MANDATED",
+                "value": "32768"
+            },
+            {
+                "name": "ACC_MODULE",
+                "value": "32768"
+            },
+            {
+                "name": "ACC_NATIVE",
+                "value": "256"
+            },
+            {
+                "name": "ACC_OPEN",
+                "value": "32"
+            },
+            {
+                "name": "ACC_PRIVATE",
+                "value": "2"
+            },
+            {
+                "name": "ACC_PROTECTED",
+                "value": "4"
+            },
+            {
+                "name": "ACC_PUBLIC",
+                "value": "1"
+            },
+            {
+                "name": "ACC_RECORD",
+                "value": "65536"
+            },
+            {
+                "name": "ACC_STATIC",
+                "value": "8"
+            },
+            {
+                "name": "ACC_STATIC_PHASE",
+                "value": "64"
+            },
+            {
+                "name": "ACC_STRICT",
+                "value": "2048"
+            },
+            {
+                "name": "ACC_SUPER",
+                "value": "32"
+            },
+            {
+                "name": "ACC_SYNCHRONIZED",
+                "value": "32"
+            },
+            {
+                "name": "ACC_SYNTHETIC",
+                "value": "4096"
+            },
+            {
+                "name": "ACC_TRANSIENT",
+                "value": "128"
+            },
+            {
+                "name": "ACC_TRANSITIVE",
+                "value": "32"
+            },
+            {
+                "name": "ACC_VARARGS",
+                "value": "128"
+            },
+            {
+                "name": "ACC_VOLATILE",
+                "value": "64"
+            },
+            {
+                "name": "ACONST_NULL",
+                "value": "1"
+            },
+            {
+                "name": "ALOAD",
+                "value": "25"
+            },
+            {
+                "name": "ANEWARRAY",
+                "value": "189"
+            },
+            {
+                "name": "ARETURN",
+                "value": "176"
+            },
+            {
+                "name": "ARRAYLENGTH",
+                "value": "190"
+            },
+            {
+                "name": "ASM10_EXPERIMENTAL",
+                "value": "17432576"
+            },
+            {
+                "name": "ASM4",
+                "value": "262144"
+            },
+            {
+                "name": "ASM5",
+                "value": "327680"
+            },
+            {
+                "name": "ASM6",
+                "value": "393216"
+            },
+            {
+                "name": "ASM7",
+                "value": "458752"
+            },
+            {
+                "name": "ASM8",
+                "value": "524288"
+            },
+            {
+                "name": "ASM9",
+                "value": "589824"
+            },
+            {
+                "name": "ASTORE",
+                "value": "58"
+            },
+            {
+                "name": "ATHROW",
+                "value": "191"
+            },
+            {
+                "name": "BALOAD",
+                "value": "51"
+            },
+            {
+                "name": "BASTORE",
+                "value": "84"
+            },
+            {
+                "name": "BIPUSH",
+                "value": "16"
+            },
+            {
+                "name": "CALOAD",
+                "value": "52"
+            },
+            {
+                "name": "CASTORE",
+                "value": "85"
+            },
+            {
+                "name": "CHECKCAST",
+                "value": "192"
+            },
+            {
+                "name": "D2F",
+                "value": "144"
+            },
+            {
+                "name": "D2I",
+                "value": "142"
+            },
+            {
+                "name": "D2L",
+                "value": "143"
+            },
+            {
+                "name": "DADD",
+                "value": "99"
+            },
+            {
+                "name": "DALOAD",
+                "value": "49"
+            },
+            {
+                "name": "DASTORE",
+                "value": "82"
+            },
+            {
+                "name": "DCMPG",
+                "value": "152"
+            },
+            {
+                "name": "DCMPL",
+                "value": "151"
+            },
+            {
+                "name": "DCONST_0",
+                "value": "14"
+            },
+            {
+                "name": "DCONST_1",
+                "value": "15"
+            },
+            {
+                "name": "DDIV",
+                "value": "111"
+            },
+            {
+                "name": "DLOAD",
+                "value": "24"
+            },
+            {
+                "name": "DMUL",
+                "value": "107"
+            },
+            {
+                "name": "DNEG",
+                "value": "119"
+            },
+            {
+                "name": "DREM",
+                "value": "115"
+            },
+            {
+                "name": "DRETURN",
+                "value": "175"
+            },
+            {
+                "name": "DSTORE",
+                "value": "57"
+            },
+            {
+                "name": "DSUB",
+                "value": "103"
+            },
+            {
+                "name": "DUP",
+                "value": "89"
+            },
+            {
+                "name": "DUP_X1",
+                "value": "90"
+            },
+            {
+                "name": "DUP_X2",
+                "value": "91"
+            },
+            {
+                "name": "DUP2",
+                "value": "92"
+            },
+            {
+                "name": "DUP2_X1",
+                "value": "93"
+            },
+            {
+                "name": "DUP2_X2",
+                "value": "94"
+            },
+            {
+                "name": "F_APPEND",
+                "value": "1"
+            },
+            {
+                "name": "F_CHOP",
+                "value": "2"
+            },
+            {
+                "name": "F_FULL",
+                "value": "0"
+            },
+            {
+                "name": "F_NEW",
+                "value": "-1"
+            },
+            {
+                "name": "F_SAME",
+                "value": "3"
+            },
+            {
+                "name": "F_SAME1",
+                "value": "4"
+            },
+            {
+                "name": "F2D",
+                "value": "141"
+            },
+            {
+                "name": "F2I",
+                "value": "139"
+            },
+            {
+                "name": "F2L",
+                "value": "140"
+            },
+            {
+                "name": "FADD",
+                "value": "98"
+            },
+            {
+                "name": "FALOAD",
+                "value": "48"
+            },
+            {
+                "name": "FASTORE",
+                "value": "81"
+            },
+            {
+                "name": "FCMPG",
+                "value": "150"
+            },
+            {
+                "name": "FCMPL",
+                "value": "149"
+            },
+            {
+                "name": "FCONST_0",
+                "value": "11"
+            },
+            {
+                "name": "FCONST_1",
+                "value": "12"
+            },
+            {
+                "name": "FCONST_2",
+                "value": "13"
+            },
+            {
+                "name": "FDIV",
+                "value": "110"
+            },
+            {
+                "name": "FLOAD",
+                "value": "23"
+            },
+            {
+                "name": "FMUL",
+                "value": "106"
+            },
+            {
+                "name": "FNEG",
+                "value": "118"
+            },
+            {
+                "name": "FREM",
+                "value": "114"
+            },
+            {
+                "name": "FRETURN",
+                "value": "174"
+            },
+            {
+                "name": "FSTORE",
+                "value": "56"
+            },
+            {
+                "name": "FSUB",
+                "value": "102"
+            },
+            {
+                "name": "GETFIELD",
+                "value": "180"
+            },
+            {
+                "name": "GETSTATIC",
+                "value": "178"
+            },
+            {
+                "name": "GOTO",
+                "value": "167"
+            },
+            {
+                "name": "H_GETFIELD",
+                "value": "1"
+            },
+            {
+                "name": "H_GETSTATIC",
+                "value": "2"
+            },
+            {
+                "name": "H_INVOKEINTERFACE",
+                "value": "9"
+            },
+            {
+                "name": "H_INVOKESPECIAL",
+                "value": "7"
+            },
+            {
+                "name": "H_INVOKESTATIC",
+                "value": "6"
+            },
+            {
+                "name": "H_INVOKEVIRTUAL",
+                "value": "5"
+            },
+            {
+                "name": "H_NEWINVOKESPECIAL",
+                "value": "8"
+            },
+            {
+                "name": "H_PUTFIELD",
+                "value": "3"
+            },
+            {
+                "name": "H_PUTSTATIC",
+                "value": "4"
+            },
+            {
+                "name": "I2B",
+                "value": "145"
+            },
+            {
+                "name": "I2C",
+                "value": "146"
+            },
+            {
+                "name": "I2D",
+                "value": "135"
+            },
+            {
+                "name": "I2F",
+                "value": "134"
+            },
+            {
+                "name": "I2L",
+                "value": "133"
+            },
+            {
+                "name": "I2S",
+                "value": "147"
+            },
+            {
+                "name": "IADD",
+                "value": "96"
+            },
+            {
+                "name": "IALOAD",
+                "value": "46"
+            },
+            {
+                "name": "IAND",
+                "value": "126"
+            },
+            {
+                "name": "IASTORE",
+                "value": "79"
+            },
+            {
+                "name": "ICONST_0",
+                "value": "3"
+            },
+            {
+                "name": "ICONST_1",
+                "value": "4"
+            },
+            {
+                "name": "ICONST_2",
+                "value": "5"
+            },
+            {
+                "name": "ICONST_3",
+                "value": "6"
+            },
+            {
+                "name": "ICONST_4",
+                "value": "7"
+            },
+            {
+                "name": "ICONST_5",
+                "value": "8"
+            },
+            {
+                "name": "ICONST_M1",
+                "value": "2"
+            },
+            {
+                "name": "IDIV",
+                "value": "108"
+            },
+            {
+                "name": "IF_ACMPEQ",
+                "value": "165"
+            },
+            {
+                "name": "IF_ACMPNE",
+                "value": "166"
+            },
+            {
+                "name": "IF_ICMPEQ",
+                "value": "159"
+            },
+            {
+                "name": "IF_ICMPGE",
+                "value": "162"
+            },
+            {
+                "name": "IF_ICMPGT",
+                "value": "163"
+            },
+            {
+                "name": "IF_ICMPLE",
+                "value": "164"
+            },
+            {
+                "name": "IF_ICMPLT",
+                "value": "161"
+            },
+            {
+                "name": "IF_ICMPNE",
+                "value": "160"
+            },
+            {
+                "name": "IFEQ",
+                "value": "153"
+            },
+            {
+                "name": "IFGE",
+                "value": "156"
+            },
+            {
+                "name": "IFGT",
+                "value": "157"
+            },
+            {
+                "name": "IFLE",
+                "value": "158"
+            },
+            {
+                "name": "IFLT",
+                "value": "155"
+            },
+            {
+                "name": "IFNE",
+                "value": "154"
+            },
+            {
+                "name": "IFNONNULL",
+                "value": "199"
+            },
+            {
+                "name": "IFNULL",
+                "value": "198"
+            },
+            {
+                "name": "IINC",
+                "value": "132"
+            },
+            {
+                "name": "ILOAD",
+                "value": "21"
+            },
+            {
+                "name": "IMUL",
+                "value": "104"
+            },
+            {
+                "name": "INEG",
+                "value": "116"
+            },
+            {
+                "name": "INSTANCEOF",
+                "value": "193"
+            },
+            {
+                "name": "INVOKEDYNAMIC",
+                "value": "186"
+            },
+            {
+                "name": "INVOKEINTERFACE",
+                "value": "185"
+            },
+            {
+                "name": "INVOKESPECIAL",
+                "value": "183"
+            },
+            {
+                "name": "INVOKESTATIC",
+                "value": "184"
+            },
+            {
+                "name": "INVOKEVIRTUAL",
+                "value": "182"
+            },
+            {
+                "name": "IOR",
+                "value": "128"
+            },
+            {
+                "name": "IREM",
+                "value": "112"
+            },
+            {
+                "name": "IRETURN",
+                "value": "172"
+            },
+            {
+                "name": "ISHL",
+                "value": "120"
+            },
+            {
+                "name": "ISHR",
+                "value": "122"
+            },
+            {
+                "name": "ISTORE",
+                "value": "54"
+            },
+            {
+                "name": "ISUB",
+                "value": "100"
+            },
+            {
+                "name": "IUSHR",
+                "value": "124"
+            },
+            {
+                "name": "IXOR",
+                "value": "130"
+            },
+            {
+                "name": "JSR",
+                "value": "168"
+            },
+            {
+                "name": "L2D",
+                "value": "138"
+            },
+            {
+                "name": "L2F",
+                "value": "137"
+            },
+            {
+                "name": "L2I",
+                "value": "136"
+            },
+            {
+                "name": "LADD",
+                "value": "97"
+            },
+            {
+                "name": "LALOAD",
+                "value": "47"
+            },
+            {
+                "name": "LAND",
+                "value": "127"
+            },
+            {
+                "name": "LASTORE",
+                "value": "80"
+            },
+            {
+                "name": "LCMP",
+                "value": "148"
+            },
+            {
+                "name": "LCONST_0",
+                "value": "9"
+            },
+            {
+                "name": "LCONST_1",
+                "value": "10"
+            },
+            {
+                "name": "LDC",
+                "value": "18"
+            },
+            {
+                "name": "LDIV",
+                "value": "109"
+            },
+            {
+                "name": "LLOAD",
+                "value": "22"
+            },
+            {
+                "name": "LMUL",
+                "value": "105"
+            },
+            {
+                "name": "LNEG",
+                "value": "117"
+            },
+            {
+                "name": "LOOKUPSWITCH",
+                "value": "171"
+            },
+            {
+                "name": "LOR",
+                "value": "129"
+            },
+            {
+                "name": "LREM",
+                "value": "113"
+            },
+            {
+                "name": "LRETURN",
+                "value": "173"
+            },
+            {
+                "name": "LSHL",
+                "value": "121"
+            },
+            {
+                "name": "LSHR",
+                "value": "123"
+            },
+            {
+                "name": "LSTORE",
+                "value": "55"
+            },
+            {
+                "name": "LSUB",
+                "value": "101"
+            },
+            {
+                "name": "LUSHR",
+                "value": "125"
+            },
+            {
+                "name": "LXOR",
+                "value": "131"
+            },
+            {
+                "name": "MONITORENTER",
+                "value": "194"
+            },
+            {
+                "name": "MONITOREXIT",
+                "value": "195"
+            },
+            {
+                "name": "MULTIANEWARRAY",
+                "value": "197"
+            },
+            {
+                "name": "NEW",
+                "value": "187"
+            },
+            {
+                "name": "NEWARRAY",
+                "value": "188"
+            },
+            {
+                "name": "NOP",
+                "value": "0"
+            },
+            {
+                "name": "POP",
+                "value": "87"
+            },
+            {
+                "name": "POP2",
+                "value": "88"
+            },
+            {
+                "name": "PUTFIELD",
+                "value": "181"
+            },
+            {
+                "name": "PUTSTATIC",
+                "value": "179"
+            },
+            {
+                "name": "RET",
+                "value": "169"
+            },
+            {
+                "name": "RETURN",
+                "value": "177"
+            },
+            {
+                "name": "SALOAD",
+                "value": "53"
+            },
+            {
+                "name": "SASTORE",
+                "value": "86"
+            },
+            {
+                "name": "SIPUSH",
+                "value": "17"
+            },
+            {
+                "name": "SOURCE_DEPRECATED",
+                "value": "256"
+            },
+            {
+                "name": "SOURCE_MASK",
+                "value": "256"
+            },
+            {
+                "name": "SWAP",
+                "value": "95"
+            },
+            {
+                "name": "T_BOOLEAN",
+                "value": "4"
+            },
+            {
+                "name": "T_BYTE",
+                "value": "8"
+            },
+            {
+                "name": "T_CHAR",
+                "value": "5"
+            },
+            {
+                "name": "T_DOUBLE",
+                "value": "7"
+            },
+            {
+                "name": "T_FLOAT",
+                "value": "6"
+            },
+            {
+                "name": "T_INT",
+                "value": "10"
+            },
+            {
+                "name": "T_LONG",
+                "value": "11"
+            },
+            {
+                "name": "T_SHORT",
+                "value": "9"
+            },
+            {
+                "name": "TABLESWITCH",
+                "value": "170"
+            },
+            {
+                "name": "V_PREVIEW",
+                "value": "-65536"
+            },
+            {
+                "name": "V1_1",
+                "value": "196653"
+            },
+            {
+                "name": "V1_2",
+                "value": "46"
+            },
+            {
+                "name": "V1_3",
+                "value": "47"
+            },
+            {
+                "name": "V1_4",
+                "value": "48"
+            },
+            {
+                "name": "V1_5",
+                "value": "49"
+            },
+            {
+                "name": "V1_6",
+                "value": "50"
+            },
+            {
+                "name": "V1_7",
+                "value": "51"
+            },
+            {
+                "name": "V1_8",
+                "value": "52"
+            },
+            {
+                "name": "V10",
+                "value": "54"
+            },
+            {
+                "name": "V11",
+                "value": "55"
+            },
+            {
+                "name": "V12",
+                "value": "56"
+            },
+            {
+                "name": "V13",
+                "value": "57"
+            },
+            {
+                "name": "V14",
+                "value": "58"
+            },
+            {
+                "name": "V15",
+                "value": "59"
+            },
+            {
+                "name": "V16",
+                "value": "60"
+            },
+            {
+                "name": "V17",
+                "value": "61"
+            },
+            {
+                "name": "V18",
+                "value": "62"
+            },
+            {
+                "name": "V19",
+                "value": "63"
+            },
+            {
+                "name": "V20",
+                "value": "64"
+            },
+            {
+                "name": "V21",
+                "value": "65"
+            },
+            {
+                "name": "V22",
+                "value": "66"
+            },
+            {
+                "name": "V9",
+                "value": "53"
+            }
+        ]
+    },
+    {
+        "enumName": "SpringAsmInfo",
+        "values": [
+            {
+                "name": "ASM_VERSION",
+                "value": "17432576"
+            }
+        ]
+    },
+    {
+        "enumName": "Type",
+        "values": [
+            {
+                "name": "ARRAY",
+                "value": "9"
+            },
+            {
+                "name": "BOOLEAN",
+                "value": "1"
+            },
+            {
+                "name": "BYTE",
+                "value": "3"
+            },
+            {
+                "name": "CHAR",
+                "value": "2"
+            },
+            {
+                "name": "DOUBLE",
+                "value": "8"
+            },
+            {
+                "name": "FLOAT",
+                "value": "6"
+            },
+            {
+                "name": "INT",
+                "value": "5"
+            },
+            {
+                "name": "LONG",
+                "value": "7"
+            },
+            {
+                "name": "METHOD",
+                "value": "11"
+            },
+            {
+                "name": "OBJECT",
+                "value": "10"
+            },
+            {
+                "name": "SHORT",
+                "value": "4"
+            },
+            {
+                "name": "VOID",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "enumName": "TypePath",
+        "values": [
+            {
+                "name": "ARRAY_ELEMENT",
+                "value": "0"
+            },
+            {
+                "name": "INNER_TYPE",
+                "value": "1"
+            },
+            {
+                "name": "TYPE_ARGUMENT",
+                "value": "3"
+            },
+            {
+                "name": "WILDCARD_BOUND",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "enumName": "TypeReference",
+        "values": [
+            {
+                "name": "CAST",
+                "value": "71"
+            },
+            {
+                "name": "CLASS_EXTENDS",
+                "value": "16"
+            },
+            {
+                "name": "CLASS_TYPE_PARAMETER",
+                "value": "0"
+            },
+            {
+                "name": "CLASS_TYPE_PARAMETER_BOUND",
+                "value": "17"
+            },
+            {
+                "name": "CONSTRUCTOR_INVOCATION_TYPE_ARGUMENT",
+                "value": "72"
+            },
+            {
+                "name": "CONSTRUCTOR_REFERENCE",
+                "value": "69"
+            },
+            {
+                "name": "CONSTRUCTOR_REFERENCE_TYPE_ARGUMENT",
+                "value": "74"
+            },
+            {
+                "name": "EXCEPTION_PARAMETER",
+                "value": "66"
+            },
+            {
+                "name": "FIELD",
+                "value": "19"
+            },
+            {
+                "name": "INSTANCEOF",
+                "value": "67"
+            },
+            {
+                "name": "LOCAL_VARIABLE",
+                "value": "64"
+            },
+            {
+                "name": "METHOD_FORMAL_PARAMETER",
+                "value": "22"
+            },
+            {
+                "name": "METHOD_INVOCATION_TYPE_ARGUMENT",
+                "value": "73"
+            },
+            {
+                "name": "METHOD_RECEIVER",
+                "value": "21"
+            },
+            {
+                "name": "METHOD_REFERENCE",
+                "value": "70"
+            },
+            {
+                "name": "METHOD_REFERENCE_TYPE_ARGUMENT",
+                "value": "75"
+            },
+            {
+                "name": "METHOD_RETURN",
+                "value": "20"
+            },
+            {
+                "name": "METHOD_TYPE_PARAMETER",
+                "value": "1"
+            },
+            {
+                "name": "METHOD_TYPE_PARAMETER_BOUND",
+                "value": "18"
+            },
+            {
+                "name": "NEW",
+                "value": "68"
+            },
+            {
+                "name": "RESOURCE_VARIABLE",
+                "value": "65"
+            },
+            {
+                "name": "THROWS",
+                "value": "23"
+            }
+        ]
+    },
+    {
+        "enumName": "MethodInvocationException",
+        "values": [
+            {
+                "name": "ERROR_CODE",
+                "value": "methodInvocation"
+            }
+        ]
+    },
+    {
+        "enumName": "PropertyAccessor",
+        "values": [
+            {
+                "name": "NESTED_PROPERTY_SEPARATOR",
+                "value": "."
+            },
+            {
+                "name": "NESTED_PROPERTY_SEPARATOR_CHAR",
+                "value":"\'.\'"
+            },
+            {
+                "name": "PROPERTY_KEY_PREFIX",
+                "value": "["
+            },
+            {
+                "name": "PROPERTY_KEY_PREFIX_CHAR",
+                "value":"\'[\'"
+            },
+            {
+                "name": "PROPERTY_KEY_SUFFIX",
+                "value": "]"
+            },
+            {
+                "name": "PROPERTY_KEY_SUFFIX_CHAR",
+                "value":"\']\'"
+            }
+        ]
+    },
+    {
+        "enumName": "PropertyMatches",
+        "values": [
+            {
+                "name": "DEFAULT_MAX_DISTANCE",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "enumName": "StandardBeanInfoFactory",
+        "values": [
+            {
+                "name": "IGNORE_BEANINFO_PROPERTY_NAME",
+                "value": "spring.beaninfo.ignore"
+            }
+        ]
+    },
+    {
+        "enumName": "TypeMismatchException",
+        "values": [
+            {
+                "name": "ERROR_CODE",
+                "value": "typeMismatch"
+            }
+        ]
+    },
+    {
+        "enumName": "BeanFactory",
+        "values": [
+            {
+                "name": "FACTORY_BEAN_PREFIX",
+                "value": "&"
+            }
+        ]
+    },
+    {
+        "enumName": "BeanFactoryUtils",
+        "values": [
+            {
+                "name": "GENERATED_BEAN_NAME_SEPARATOR",
+                "value": "#"
+            }
+        ]
+    },
+    {
+        "enumName": "FactoryBean<T>",
+        "values": [
+            {
+                "name": "OBJECT_TYPE_ATTRIBUTE",
+                "value": "factoryBeanObjectType"
+            }
+        ]
+    },
+    {
+        "enumName": "AotServices<T>",
+        "values": [
+            {
+                "name": "FACTORIES_RESOURCE_LOCATION",
+                "value": "META-INF/spring/aot.factories"
+            }
+        ]
+    },
+    {
+        "enumName": "BeanFactoryInitializationCode",
+        "values": [
+            {
+                "name": "BEAN_FACTORY_VARIABLE",
+                "value": "beanFactory"
+            }
+        ]
+    },
+    {
+        "enumName": "BeanRegistrationCodeFragments",
+        "values": [
+            {
+                "name": "BEAN_DEFINITION_VARIABLE",
+                "value": "beanDefinition"
+            },
+            {
+                "name": "INSTANCE_SUPPLIER_VARIABLE",
+                "value": "instanceSupplier"
+            }
+        ]
+    },
+    {
+        "enumName": "AutowireCapableBeanFactory",
+        "values": [
+            {
+                "name": "AUTOWIRE_AUTODETECT",
+                "value": "4"
+            },
+            {
+                "name": "AUTOWIRE_BY_NAME",
+                "value": "1"
+            },
+            {
+                "name": "AUTOWIRE_BY_TYPE",
+                "value": "2"
+            },
+            {
+                "name": "AUTOWIRE_CONSTRUCTOR",
+                "value": "3"
+            },
+            {
+                "name": "AUTOWIRE_NO",
+                "value": "0"
+            },
+            {
+                "name": "ORIGINAL_INSTANCE_SUFFIX",
+                "value": ".ORIGINAL"
+            }
+        ]
+    },
+    {
+        "enumName": "BeanDefinition",
+        "values": [
+            {
+                "name": "ROLE_APPLICATION",
+                "value": "0"
+            },
+            {
+                "name": "ROLE_INFRASTRUCTURE",
+                "value": "2"
+            },
+            {
+                "name": "ROLE_SUPPORT",
+                "value": "1"
+            },
+            {
+                "name": "SCOPE_PROTOTYPE",
+                "value": "prototype"
+            },
+            {
+                "name": "SCOPE_SINGLETON",
+                "value": "singleton"
+            }
+        ]
+    },
+    {
+        "enumName": "ConfigurableBeanFactory",
+        "values": [
+            {
+                "name": "SCOPE_PROTOTYPE",
+                "value": "prototype"
+            },
+            {
+                "name": "SCOPE_SINGLETON",
+                "value": "singleton"
+            }
+        ]
+    },
+    {
+        "enumName": "PlaceholderConfigurerSupport",
+        "values": [
+            {
+                "name": "DEFAULT_PLACEHOLDER_PREFIX",
+                "value": "${"
+            },
+            {
+                "name": "DEFAULT_PLACEHOLDER_SUFFIX",
+                "value": "}"
+            },
+            {
+                "name": "DEFAULT_VALUE_SEPARATOR",
+                "value": ":"
+            }
+        ]
+    },
+    {
+        "enumName": "PropertyOverrideConfigurer",
+        "values": [
+            {
+                "name": "DEFAULT_BEAN_NAME_SEPARATOR",
+                "value": "."
+            }
+        ]
+    },
+    {
+        "enumName": "PropertyPlaceholderConfigurer",
+        "values": [
+            {
+                "name": "SYSTEM_PROPERTIES_MODE_FALLBACK",
+                "value": "1"
+            },
+            {
+                "name": "SYSTEM_PROPERTIES_MODE_NEVER",
+                "value": "0"
+            },
+            {
+                "name": "SYSTEM_PROPERTIES_MODE_OVERRIDE",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractBeanDefinition",
+        "values": [
+            {
+                "name": "AUTOWIRE_AUTODETECT",
+                "value": "4"
+            },
+            {
+                "name": "AUTOWIRE_BY_NAME",
+                "value": "1"
+            },
+            {
+                "name": "AUTOWIRE_BY_TYPE",
+                "value": "2"
+            },
+            {
+                "name": "AUTOWIRE_CONSTRUCTOR",
+                "value": "3"
+            },
+            {
+                "name": "AUTOWIRE_NO",
+                "value": "0"
+            },
+            {
+                "name": "DEPENDENCY_CHECK_ALL",
+                "value": "3"
+            },
+            {
+                "name": "DEPENDENCY_CHECK_NONE",
+                "value": "0"
+            },
+            {
+                "name": "DEPENDENCY_CHECK_OBJECTS",
+                "value": "1"
+            },
+            {
+                "name": "DEPENDENCY_CHECK_SIMPLE",
+                "value": "2"
+            },
+            {
+                "name": "INFER_METHOD",
+                "value": "(inferred)"
+            },
+            {
+                "name": "PREFERRED_CONSTRUCTORS_ATTRIBUTE",
+                "value": "preferredConstructors"
+            },
+            {
+                "name": "SCOPE_DEFAULT",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "enumName": "AutowireCandidateQualifier",
+        "values": [
+            {
+                "name": "VALUE_KEY",
+                "value": "value"
+            }
+        ]
+    },
+    {
+        "enumName": "BeanDefinitionReaderUtils",
+        "values": [
+            {
+                "name": "GENERATED_BEAN_NAME_SEPARATOR",
+                "value": "#"
+            }
+        ]
+    },
+    {
+        "enumName": "PropertiesBeanDefinitionReader",
+        "values": [
+            {
+                "name": "ABSTRACT_KEY",
+                "value": "(abstract)"
+            },
+            {
+                "name": "CLASS_KEY",
+                "value": "(class)"
+            },
+            {
+                "name": "CONSTRUCTOR_ARG_PREFIX",
+                "value": "$"
+            },
+            {
+                "name": "LAZY_INIT_KEY",
+                "value": "(lazy-init)"
+            },
+            {
+                "name": "PARENT_KEY",
+                "value": "(parent)"
+            },
+            {
+                "name": "REF_PREFIX",
+                "value": "*"
+            },
+            {
+                "name": "REF_SUFFIX",
+                "value": "(ref)"
+            },
+            {
+                "name": "SCOPE_KEY",
+                "value": "(scope)"
+            },
+            {
+                "name": "SEPARATOR",
+                "value": "."
+            },
+            {
+                "name": "SINGLETON_KEY",
+                "value": "(singleton)"
+            },
+            {
+                "name": "TRUE_VALUE",
+                "value": "true"
+            }
+        ]
+    },
+    {
+        "enumName": "BeanWiringInfo",
+        "values": [
+            {
+                "name": "AUTOWIRE_BY_NAME",
+                "value": "1"
+            },
+            {
+                "name": "AUTOWIRE_BY_TYPE",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractBeanDefinitionParser",
+        "values": [
+            {
+                "name": "ID_ATTRIBUTE",
+                "value": "id"
+            },
+            {
+                "name": "NAME_ATTRIBUTE",
+                "value": "name"
+            }
+        ]
+    },
+    {
+        "enumName": "BeanDefinitionParserDelegate",
+        "values": [
+            {
+                "name": "ABSTRACT_ATTRIBUTE",
+                "value": "abstract"
+            },
+            {
+                "name": "ARG_TYPE_ELEMENT",
+                "value": "arg-type"
+            },
+            {
+                "name": "ARG_TYPE_MATCH_ATTRIBUTE",
+                "value": "match"
+            },
+            {
+                "name": "ARRAY_ELEMENT",
+                "value": "array"
+            },
+            {
+                "name": "AUTOWIRE_ATTRIBUTE",
+                "value": "autowire"
+            },
+            {
+                "name": "AUTOWIRE_AUTODETECT_VALUE",
+                "value": "autodetect"
+            },
+            {
+                "name": "AUTOWIRE_BY_NAME_VALUE",
+                "value": "byName"
+            },
+            {
+                "name": "AUTOWIRE_BY_TYPE_VALUE",
+                "value": "byType"
+            },
+            {
+                "name": "AUTOWIRE_CANDIDATE_ATTRIBUTE",
+                "value": "autowire-candidate"
+            },
+            {
+                "name": "AUTOWIRE_CONSTRUCTOR_VALUE",
+                "value": "constructor"
+            },
+            {
+                "name": "AUTOWIRE_NO_VALUE",
+                "value": "no"
+            },
+            {
+                "name": "BEAN_ELEMENT",
+                "value": "bean"
+            },
+            {
+                "name": "BEAN_REF_ATTRIBUTE",
+                "value": "bean"
+            },
+            {
+                "name": "BEANS_NAMESPACE_URI",
+                "value": "http://www.springframework.org/schema/beans"
+            },
+            {
+                "name": "CLASS_ATTRIBUTE",
+                "value": "class"
+            },
+            {
+                "name": "CONSTRUCTOR_ARG_ELEMENT",
+                "value": "constructor-arg"
+            },
+            {
+                "name": "DEFAULT_AUTOWIRE_ATTRIBUTE",
+                "value": "default-autowire"
+            },
+            {
+                "name": "DEFAULT_AUTOWIRE_CANDIDATES_ATTRIBUTE",
+                "value": "default-autowire-candidates"
+            },
+            {
+                "name": "DEFAULT_DESTROY_METHOD_ATTRIBUTE",
+                "value": "default-destroy-method"
+            },
+            {
+                "name": "DEFAULT_INIT_METHOD_ATTRIBUTE",
+                "value": "default-init-method"
+            },
+            {
+                "name": "DEFAULT_LAZY_INIT_ATTRIBUTE",
+                "value": "default-lazy-init"
+            },
+            {
+                "name": "DEFAULT_MERGE_ATTRIBUTE",
+                "value": "default-merge"
+            },
+            {
+                "name": "DEFAULT_VALUE",
+                "value": "default"
+            },
+            {
+                "name": "DEPENDS_ON_ATTRIBUTE",
+                "value": "depends-on"
+            },
+            {
+                "name": "DESCRIPTION_ELEMENT",
+                "value": "description"
+            },
+            {
+                "name": "DESTROY_METHOD_ATTRIBUTE",
+                "value": "destroy-method"
+            },
+            {
+                "name": "ENTRY_ELEMENT",
+                "value": "entry"
+            },
+            {
+                "name": "FACTORY_BEAN_ATTRIBUTE",
+                "value": "factory-bean"
+            },
+            {
+                "name": "FACTORY_METHOD_ATTRIBUTE",
+                "value": "factory-method"
+            },
+            {
+                "name": "FALSE_VALUE",
+                "value": "false"
+            },
+            {
+                "name": "ID_ATTRIBUTE",
+                "value": "id"
+            },
+            {
+                "name": "IDREF_ELEMENT",
+                "value": "idref"
+            },
+            {
+                "name": "INDEX_ATTRIBUTE",
+                "value": "index"
+            },
+            {
+                "name": "INIT_METHOD_ATTRIBUTE",
+                "value": "init-method"
+            },
+            {
+                "name": "KEY_ATTRIBUTE",
+                "value": "key"
+            },
+            {
+                "name": "KEY_ELEMENT",
+                "value": "key"
+            },
+            {
+                "name": "KEY_REF_ATTRIBUTE",
+                "value": "key-ref"
+            },
+            {
+                "name": "KEY_TYPE_ATTRIBUTE",
+                "value": "key-type"
+            },
+            {
+                "name": "LAZY_INIT_ATTRIBUTE",
+                "value": "lazy-init"
+            },
+            {
+                "name": "LIST_ELEMENT",
+                "value": "list"
+            },
+            {
+                "name": "LOOKUP_METHOD_ELEMENT",
+                "value": "lookup-method"
+            },
+            {
+                "name": "MAP_ELEMENT",
+                "value": "map"
+            },
+            {
+                "name": "MERGE_ATTRIBUTE",
+                "value": "merge"
+            },
+            {
+                "name": "META_ELEMENT",
+                "value": "meta"
+            },
+            {
+                "name": "MULTI_VALUE_ATTRIBUTE_DELIMITERS",
+                "value": ",; "
+            },
+            {
+                "name": "NAME_ATTRIBUTE",
+                "value": "name"
+            },
+            {
+                "name": "NULL_ELEMENT",
+                "value": "null"
+            },
+            {
+                "name": "PARENT_ATTRIBUTE",
+                "value": "parent"
+            },
+            {
+                "name": "PARENT_REF_ATTRIBUTE",
+                "value": "parent"
+            },
+            {
+                "name": "PRIMARY_ATTRIBUTE",
+                "value": "primary"
+            },
+            {
+                "name": "PROP_ELEMENT",
+                "value": "prop"
+            },
+            {
+                "name": "PROPERTY_ELEMENT",
+                "value": "property"
+            },
+            {
+                "name": "PROPS_ELEMENT",
+                "value": "props"
+            },
+            {
+                "name": "QUALIFIER_ATTRIBUTE_ELEMENT",
+                "value": "attribute"
+            },
+            {
+                "name": "QUALIFIER_ELEMENT",
+                "value": "qualifier"
+            },
+            {
+                "name": "REF_ATTRIBUTE",
+                "value": "ref"
+            },
+            {
+                "name": "REF_ELEMENT",
+                "value": "ref"
+            },
+            {
+                "name": "REPLACED_METHOD_ELEMENT",
+                "value": "replaced-method"
+            },
+            {
+                "name": "REPLACER_ATTRIBUTE",
+                "value": "replacer"
+            },
+            {
+                "name": "SCOPE_ATTRIBUTE",
+                "value": "scope"
+            },
+            {
+                "name": "SET_ELEMENT",
+                "value": "set"
+            },
+            {
+                "name": "TRUE_VALUE",
+                "value": "true"
+            },
+            {
+                "name": "TYPE_ATTRIBUTE",
+                "value": "type"
+            },
+            {
+                "name": "VALUE_ATTRIBUTE",
+                "value": "value"
+            },
+            {
+                "name": "VALUE_ELEMENT",
+                "value": "value"
+            },
+            {
+                "name": "VALUE_REF_ATTRIBUTE",
+                "value": "value-ref"
+            },
+            {
+                "name": "VALUE_TYPE_ATTRIBUTE",
+                "value": "value-type"
+            }
+        ]
+    },
+    {
+        "enumName": "DefaultBeanDefinitionDocumentReader",
+        "values": [
+            {
+                "name": "ALIAS_ATTRIBUTE",
+                "value": "alias"
+            },
+            {
+                "name": "ALIAS_ELEMENT",
+                "value": "alias"
+            },
+            {
+                "name": "BEAN_ELEMENT",
+                "value": "bean"
+            },
+            {
+                "name": "IMPORT_ELEMENT",
+                "value": "import"
+            },
+            {
+                "name": "NAME_ATTRIBUTE",
+                "value": "name"
+            },
+            {
+                "name": "NESTED_BEANS_ELEMENT",
+                "value": "beans"
+            },
+            {
+                "name": "PROFILE_ATTRIBUTE",
+                "value": "profile"
+            },
+            {
+                "name": "RESOURCE_ATTRIBUTE",
+                "value": "resource"
+            }
+        ]
+    },
+    {
+        "enumName": "DefaultNamespaceHandlerResolver",
+        "values": [
+            {
+                "name": "DEFAULT_HANDLER_MAPPINGS_LOCATION",
+                "value": "META-INF/spring.handlers"
+            }
+        ]
+    },
+    {
+        "enumName": "DelegatingEntityResolver",
+        "values": [
+            {
+                "name": "DTD_SUFFIX",
+                "value": ".dtd"
+            },
+            {
+                "name": "XSD_SUFFIX",
+                "value": ".xsd"
+            }
+        ]
+    },
+    {
+        "enumName": "PluggableSchemaResolver",
+        "values": [
+            {
+                "name": "DEFAULT_SCHEMA_MAPPINGS_LOCATION",
+                "value": "META-INF/spring.schemas"
+            }
+        ]
+    },
+    {
+        "enumName": "XmlBeanDefinitionReader",
+        "values": [
+            {
+                "name": "VALIDATION_AUTO",
+                "value": "1"
+            },
+            {
+                "name": "VALIDATION_DTD",
+                "value": "2"
+            },
+            {
+                "name": "VALIDATION_NONE",
+                "value": "0"
+            },
+            {
+                "name": "VALIDATION_XSD",
+                "value": "3"
+            }
+        ]
+    },
+    {
+        "enumName": "CustomBooleanEditor",
+        "values": [
+            {
+                "name": "VALUE_0",
+                "value": "0"
+            },
+            {
+                "name": "VALUE_1",
+                "value": "1"
+            },
+            {
+                "name": "VALUE_FALSE",
+                "value": "false"
+            },
+            {
+                "name": "VALUE_NO",
+                "value": "no"
+            },
+            {
+                "name": "VALUE_OFF",
+                "value": "off"
+            },
+            {
+                "name": "VALUE_ON",
+                "value": "on"
+            },
+            {
+                "name": "VALUE_TRUE",
+                "value": "true"
+            },
+            {
+                "name": "VALUE_YES",
+                "value": "yes"
+            }
+        ]
+    },
+    {
+        "enumName": "ResourceBundleEditor",
+        "values": [
+            {
+                "name": "BASE_NAME_SEPARATOR",
+                "value": "_"
+            }
+        ]
+    },
+    {
+        "enumName": "StringArrayPropertyEditor",
+        "values": [
+            {
+                "name": "DEFAULT_SEPARATOR",
+                "value": ","
+            }
+        ]
+    },
+    {
+        "enumName": "PagedListHolder<E>",
+        "values": [
+            {
+                "name": "DEFAULT_MAX_LINKED_PAGES",
+                "value": "10"
+            },
+            {
+                "name": "DEFAULT_PAGE_SIZE",
+                "value": "10"
+            }
+        ]
+    },
+    {
+        "enumName": "CacheManagementConfigUtils",
+        "values": [
+            {
+                "name": "CACHE_ADVISOR_BEAN_NAME",
+                "value": "org.springframework.cache.config.internalCacheAdvisor"
+            },
+            {
+                "name": "CACHE_ASPECT_BEAN_NAME",
+                "value": "org.springframework.cache.config.internalCacheAspect"
+            },
+            {
+                "name": "JCACHE_ADVISOR_BEAN_NAME",
+                "value": "org.springframework.cache.config.internalJCacheAdvisor"
+            },
+            {
+                "name": "JCACHE_ASPECT_BEAN_NAME",
+                "value": "org.springframework.cache.config.internalJCacheAspect"
+            }
+        ]
+    },
+    {
+        "enumName": "BeanMap",
+        "values": [
+            {
+                "name": "REQUIRE_GETTER",
+                "value": "1"
+            },
+            {
+                "name": "REQUIRE_SETTER",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "enumName": "CodeEmitter",
+        "values": [
+            {
+                "name": "ADD",
+                "value": "96"
+            },
+            {
+                "name": "AND",
+                "value": "126"
+            },
+            {
+                "name": "DIV",
+                "value": "108"
+            },
+            {
+                "name": "EQ",
+                "value": "153"
+            },
+            {
+                "name": "GE",
+                "value": "156"
+            },
+            {
+                "name": "GT",
+                "value": "157"
+            },
+            {
+                "name": "LE",
+                "value": "158"
+            },
+            {
+                "name": "LT",
+                "value": "155"
+            },
+            {
+                "name": "MUL",
+                "value": "104"
+            },
+            {
+                "name": "NE",
+                "value": "154"
+            },
+            {
+                "name": "NEG",
+                "value": "116"
+            },
+            {
+                "name": "OR",
+                "value": "128"
+            },
+            {
+                "name": "REM",
+                "value": "112"
+            },
+            {
+                "name": "SUB",
+                "value": "100"
+            },
+            {
+                "name": "USHR",
+                "value": "124"
+            },
+            {
+                "name": "XOR",
+                "value": "130"
+            }
+        ]
+    },
+    {
+        "enumName": "Constants",
+        "values": [
+            {
+                "name": "CONSTRUCTOR_NAME",
+                "value": "<init>"
+            },
+            {
+                "name": "PRIVATE_FINAL_STATIC",
+                "value": "26"
+            },
+            {
+                "name": "SOURCE_FILE",
+                "value": "<generated>"
+            },
+            {
+                "name": "STATIC_NAME",
+                "value": "<clinit>"
+            },
+            {
+                "name": "SUID_FIELD_NAME",
+                "value": "serialVersionUID"
+            },
+            {
+                "name": "SWITCH_STYLE_HASH",
+                "value": "1"
+            },
+            {
+                "name": "SWITCH_STYLE_HASHONLY",
+                "value": "2"
+            },
+            {
+                "name": "SWITCH_STYLE_TRIE",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "enumName": "DebuggingClassWriter",
+        "values": [
+            {
+                "name": "DEBUG_LOCATION_PROPERTY",
+                "value": "cglib.debugLocation"
+            }
+        ]
+    },
+    {
+        "enumName": "Mixin",
+        "values": [
+            {
+                "name": "STYLE_BEANS",
+                "value": "1"
+            },
+            {
+                "name": "STYLE_EVERYTHING",
+                "value": "2"
+            },
+            {
+                "name": "STYLE_INTERFACES",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "enumName": "ConfigurableApplicationContext",
+        "values": [
+            {
+                "name": "APPLICATION_STARTUP_BEAN_NAME",
+                "value": "applicationStartup"
+            },
+            {
+                "name": "CONFIG_LOCATION_DELIMITERS",
+                "value": ",; \\\\t\\\\n"
+            },
+            {
+                "name": "CONVERSION_SERVICE_BEAN_NAME",
+                "value": "conversionService"
+            },
+            {
+                "name": "ENVIRONMENT_BEAN_NAME",
+                "value": "environment"
+            },
+            {
+                "name": "LOAD_TIME_WEAVER_BEAN_NAME",
+                "value": "loadTimeWeaver"
+            },
+            {
+                "name": "SHUTDOWN_HOOK_THREAD_NAME",
+                "value": "SpringContextShutdownHook"
+            },
+            {
+                "name": "SYSTEM_ENVIRONMENT_BEAN_NAME",
+                "value": "systemEnvironment"
+            },
+            {
+                "name": "SYSTEM_PROPERTIES_BEAN_NAME",
+                "value": "systemProperties"
+            }
+        ]
+    },
+    {
+        "enumName": "SmartLifecycle",
+        "values": [
+            {
+                "name": "DEFAULT_PHASE",
+                "value": "2147483647"
+            }
+        ]
+    },
+    {
+        "enumName": "AdviceModeImportSelector<A extends Annotation>",
+        "values": [
+            {
+                "name": "DEFAULT_ADVICE_MODE_ATTRIBUTE_NAME",
+                "value": "mode"
+            }
+        ]
+    },
+    {
+        "enumName": "AnnotationConfigUtils",
+        "values": [
+            {
+                "name": "AUTOWIRED_ANNOTATION_PROCESSOR_BEAN_NAME",
+                "value": "org.springframework.context.annotation.internalAutowiredAnnotationProcessor"
+            },
+            {
+                "name": "COMMON_ANNOTATION_PROCESSOR_BEAN_NAME",
+                "value": "org.springframework.context.annotation.internalCommonAnnotationProcessor"
+            },
+            {
+                "name": "CONFIGURATION_ANNOTATION_PROCESSOR_BEAN_NAME",
+                "value": "org.springframework.context.annotation.internalConfigurationAnnotationProcessor"
+            },
+            {
+                "name": "CONFIGURATION_BEAN_NAME_GENERATOR",
+                "value": "org.springframework.context.annotation.internalConfigurationBeanNameGenerator"
+            },
+            {
+                "name": "EVENT_LISTENER_FACTORY_BEAN_NAME",
+                "value": "org.springframework.context.event.internalEventListenerFactory"
+            },
+            {
+                "name": "EVENT_LISTENER_PROCESSOR_BEAN_NAME",
+                "value": "org.springframework.context.event.internalEventListenerProcessor"
+            },
+            {
+                "name": "PERSISTENCE_ANNOTATION_PROCESSOR_BEAN_NAME",
+                "value": "org.springframework.context.annotation.internalPersistenceAnnotationProcessor"
+            }
+        ]
+    },
+    {
+        "enumName": "SpringConfiguredConfiguration",
+        "values": [
+            {
+                "name": "BEAN_CONFIGURER_ASPECT_BEAN_NAME",
+                "value": "org.springframework.context.config.internalBeanConfigurerAspect"
+            }
+        ]
+    },
+    {
+        "enumName": "StandardBeanExpressionResolver",
+        "values": [
+            {
+                "name": "DEFAULT_EXPRESSION_PREFIX",
+                "value": "#{"
+            },
+            {
+                "name": "DEFAULT_EXPRESSION_SUFFIX",
+                "value": "}"
+            }
+        ]
+    },
+    {
+        "enumName": "CandidateComponentsIndexLoader",
+        "values": [
+            {
+                "name": "COMPONENTS_RESOURCE_LOCATION",
+                "value": "META-INF/spring.components"
+            },
+            {
+                "name": "IGNORE_INDEX",
+                "value": "spring.index.ignore"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractApplicationContext",
+        "values": [
+            {
+                "name": "APPLICATION_EVENT_MULTICASTER_BEAN_NAME",
+                "value": "applicationEventMulticaster"
+            },
+            {
+                "name": "LIFECYCLE_PROCESSOR_BEAN_NAME",
+                "value": "lifecycleProcessor"
+            },
+            {
+                "name": "MESSAGE_SOURCE_BEAN_NAME",
+                "value": "messageSource"
+            }
+        ]
+    },
+    {
+        "enumName": "DefaultLifecycleProcessor",
+        "values": [
+            {
+                "name": "CHECKPOINT_PROPERTY_NAME",
+                "value": "spring.context.checkpoint"
+            },
+            {
+                "name": "EXIT_PROPERTY_NAME",
+                "value": "spring.context.exit"
+            },
+            {
+                "name": "ON_REFRESH_VALUE",
+                "value": "onRefresh"
+            }
+        ]
+    },
+    {
+        "enumName": "PropertySourcesPlaceholderConfigurer",
+        "values": [
+            {
+                "name": "ENVIRONMENT_PROPERTIES_PROPERTY_SOURCE_NAME",
+                "value": "environmentProperties"
+            },
+            {
+                "name": "LOCAL_PROPERTIES_PROPERTY_SOURCE_NAME",
+                "value": "localProperties"
+            }
+        ]
+    },
+    {
+        "enumName": "AspectJWeavingEnabler",
+        "values": [
+            {
+                "name": "ASPECTJ_AOP_XML_RESOURCE",
+                "value": "META-INF/aop.xml"
+            }
+        ]
+    },
+    {
+        "enumName": "Ordered",
+        "values": [
+            {
+                "name": "HIGHEST_PRECEDENCE",
+                "value": "-2147483648"
+            },
+            {
+                "name": "LOWEST_PRECEDENCE",
+                "value": "2147483647"
+            }
+        ]
+    },
+    {
+        "enumName": "AnnotationUtils",
+        "values": [
+            {
+                "name": "VALUE",
+                "value": "value"
+            }
+        ]
+    },
+    {
+        "enumName": "MergedAnnotation<A extends Annotation>",
+        "values": [
+            {
+                "name": "VALUE",
+                "value": "value"
+            }
+        ]
+    },
+    {
+        "enumName": "ResourceEncoder",
+        "values": [
+            {
+                "name": "DEFAULT_BUFFER_SIZE",
+                "value": "8192"
+            }
+        ]
+    },
+    {
+        "enumName": "ResourceRegionEncoder",
+        "values": [
+            {
+                "name": "DEFAULT_BUFFER_SIZE",
+                "value": "8192"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractEnvironment",
+        "values": [
+            {
+                "name": "ACTIVE_PROFILES_PROPERTY_NAME",
+                "value": "spring.profiles.active"
+            },
+            {
+                "name": "DEFAULT_PROFILES_PROPERTY_NAME",
+                "value": "spring.profiles.default"
+            },
+            {
+                "name": "IGNORE_GETENV_PROPERTY_NAME",
+                "value": "spring.getenv.ignore"
+            },
+            {
+                "name": "RESERVED_DEFAULT_PROFILE_NAME",
+                "value": "default"
+            }
+        ]
+    },
+    {
+        "enumName": "CommandLinePropertySource<T>",
+        "values": [
+            {
+                "name": "COMMAND_LINE_PROPERTY_SOURCE_NAME",
+                "value": "commandLineArgs"
+            },
+            {
+                "name": "DEFAULT_NON_OPTION_ARGS_PROPERTY_NAME",
+                "value": "nonOptionArgs"
+            }
+        ]
+    },
+    {
+        "enumName": "StandardEnvironment",
+        "values": [
+            {
+                "name": "SYSTEM_ENVIRONMENT_PROPERTY_SOURCE_NAME",
+                "value": "systemEnvironment"
+            },
+            {
+                "name": "SYSTEM_PROPERTIES_PROPERTY_SOURCE_NAME",
+                "value": "systemProperties"
+            }
+        ]
+    },
+    {
+        "enumName": "ResourceLoader",
+        "values": [
+            {
+                "name": "CLASSPATH_URL_PREFIX",
+                "value": "classpath:"
+            }
+        ]
+    },
+    {
+        "enumName": "DefaultDataBufferFactory",
+        "values": [
+            {
+                "name": "DEFAULT_INITIAL_CAPACITY",
+                "value": "256"
+            }
+        ]
+    },
+    {
+        "enumName": "LocalizedResourceHelper",
+        "values": [
+            {
+                "name": "DEFAULT_SEPARATOR",
+                "value": "_"
+            }
+        ]
+    },
+    {
+        "enumName": "ResourcePatternResolver",
+        "values": [
+            {
+                "name": "CLASSPATH_ALL_URL_PREFIX",
+                "value": "classpath*:"
+            }
+        ]
+    },
+    {
+        "enumName": "SpringFactoriesLoader",
+        "values": [
+            {
+                "name": "FACTORIES_RESOURCE_LOCATION",
+                "value": "META-INF/spring.factories"
+            }
+        ]
+    },
+    {
+        "enumName": "AsyncTaskExecutor",
+        "values": [
+            {
+                "name": "TIMEOUT_IMMEDIATE",
+                "value": "0L"
+            },
+            {
+                "name": "TIMEOUT_INDEFINITE",
+                "value": "9223372036854775807L"
+            }
+        ]
+    },
+    {
+        "enumName": "SimpleAsyncTaskExecutor",
+        "values": [
+            {
+                "name": "NO_CONCURRENCY",
+                "value": "0"
+            },
+            {
+                "name": "UNBOUNDED_CONCURRENCY",
+                "value": "-1"
+            }
+        ]
+    },
+    {
+        "enumName": "CachingMetadataReaderFactory",
+        "values": [
+            {
+                "name": "DEFAULT_CACHE_LIMIT",
+                "value": "256"
+            }
+        ]
+    },
+    {
+        "enumName": "SpelParserConfiguration",
+        "values": [
+            {
+                "name": "SPRING_EXPRESSION_COMPILER_MODE_PROPERTY_NAME",
+                "value": "spring.expression.compiler.mode"
+            }
+        ]
+    },
+    {
+        "enumName": "Selection",
+        "values": [
+            {
+                "name": "ALL",
+                "value": "0"
+            },
+            {
+                "name": "FIRST",
+                "value": "1"
+            },
+            {
+                "name": "LAST",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "enumName": "HttpHeaders",
+        "values": [
+            {
+                "name": "ACCEPT",
+                "value": "Accept"
+            },
+            {
+                "name": "ACCEPT_CHARSET",
+                "value": "Accept-Charset"
+            },
+            {
+                "name": "ACCEPT_ENCODING",
+                "value": "Accept-Encoding"
+            },
+            {
+                "name": "ACCEPT_LANGUAGE",
+                "value": "Accept-Language"
+            },
+            {
+                "name": "ACCEPT_PATCH",
+                "value": "Accept-Patch"
+            },
+            {
+                "name": "ACCEPT_RANGES",
+                "value": "Accept-Ranges"
+            },
+            {
+                "name": "ACCESS_CONTROL_ALLOW_CREDENTIALS",
+                "value": "Access-Control-Allow-Credentials"
+            },
+            {
+                "name": "ACCESS_CONTROL_ALLOW_HEADERS",
+                "value": "Access-Control-Allow-Headers"
+            },
+            {
+                "name": "ACCESS_CONTROL_ALLOW_METHODS",
+                "value": "Access-Control-Allow-Methods"
+            },
+            {
+                "name": "ACCESS_CONTROL_ALLOW_ORIGIN",
+                "value": "Access-Control-Allow-Origin"
+            },
+            {
+                "name": "ACCESS_CONTROL_EXPOSE_HEADERS",
+                "value": "Access-Control-Expose-Headers"
+            },
+            {
+                "name": "ACCESS_CONTROL_MAX_AGE",
+                "value": "Access-Control-Max-Age"
+            },
+            {
+                "name": "ACCESS_CONTROL_REQUEST_HEADERS",
+                "value": "Access-Control-Request-Headers"
+            },
+            {
+                "name": "ACCESS_CONTROL_REQUEST_METHOD",
+                "value": "Access-Control-Request-Method"
+            },
+            {
+                "name": "AGE",
+                "value": "Age"
+            },
+            {
+                "name": "ALLOW",
+                "value": "Allow"
+            },
+            {
+                "name": "AUTHORIZATION",
+                "value": "Authorization"
+            },
+            {
+                "name": "CACHE_CONTROL",
+                "value": "Cache-Control"
+            },
+            {
+                "name": "CONNECTION",
+                "value": "Connection"
+            },
+            {
+                "name": "CONTENT_DISPOSITION",
+                "value": "Content-Disposition"
+            },
+            {
+                "name": "CONTENT_ENCODING",
+                "value": "Content-Encoding"
+            },
+            {
+                "name": "CONTENT_LANGUAGE",
+                "value": "Content-Language"
+            },
+            {
+                "name": "CONTENT_LENGTH",
+                "value": "Content-Length"
+            },
+            {
+                "name": "CONTENT_LOCATION",
+                "value": "Content-Location"
+            },
+            {
+                "name": "CONTENT_RANGE",
+                "value": "Content-Range"
+            },
+            {
+                "name": "CONTENT_TYPE",
+                "value": "Content-Type"
+            },
+            {
+                "name": "COOKIE",
+                "value": "Cookie"
+            },
+            {
+                "name": "DATE",
+                "value": "Date"
+            },
+            {
+                "name": "ETAG",
+                "value": "ETag"
+            },
+            {
+                "name": "EXPECT",
+                "value": "Expect"
+            },
+            {
+                "name": "EXPIRES",
+                "value": "Expires"
+            },
+            {
+                "name": "FROM",
+                "value": "From"
+            },
+            {
+                "name": "HOST",
+                "value": "Host"
+            },
+            {
+                "name": "IF_MATCH",
+                "value": "If-Match"
+            },
+            {
+                "name": "IF_MODIFIED_SINCE",
+                "value": "If-Modified-Since"
+            },
+            {
+                "name": "IF_NONE_MATCH",
+                "value": "If-None-Match"
+            },
+            {
+                "name": "IF_RANGE",
+                "value": "If-Range"
+            },
+            {
+                "name": "IF_UNMODIFIED_SINCE",
+                "value": "If-Unmodified-Since"
+            },
+            {
+                "name": "LAST_MODIFIED",
+                "value": "Last-Modified"
+            },
+            {
+                "name": "LINK",
+                "value": "Link"
+            },
+            {
+                "name": "LOCATION",
+                "value": "Location"
+            },
+            {
+                "name": "MAX_FORWARDS",
+                "value": "Max-Forwards"
+            },
+            {
+                "name": "ORIGIN",
+                "value": "Origin"
+            },
+            {
+                "name": "PRAGMA",
+                "value": "Pragma"
+            },
+            {
+                "name": "PROXY_AUTHENTICATE",
+                "value": "Proxy-Authenticate"
+            },
+            {
+                "name": "PROXY_AUTHORIZATION",
+                "value": "Proxy-Authorization"
+            },
+            {
+                "name": "RANGE",
+                "value": "Range"
+            },
+            {
+                "name": "REFERER",
+                "value": "Referer"
+            },
+            {
+                "name": "RETRY_AFTER",
+                "value": "Retry-After"
+            },
+            {
+                "name": "SERVER",
+                "value": "Server"
+            },
+            {
+                "name": "SET_COOKIE",
+                "value": "Set-Cookie"
+            },
+            {
+                "name": "SET_COOKIE2",
+                "value": "Set-Cookie2"
+            },
+            {
+                "name": "TE",
+                "value": "TE"
+            },
+            {
+                "name": "TRAILER",
+                "value": "Trailer"
+            },
+            {
+                "name": "TRANSFER_ENCODING",
+                "value": "Transfer-Encoding"
+            },
+            {
+                "name": "UPGRADE",
+                "value": "Upgrade"
+            },
+            {
+                "name": "USER_AGENT",
+                "value": "User-Agent"
+            },
+            {
+                "name": "VARY",
+                "value": "Vary"
+            },
+            {
+                "name": "VIA",
+                "value": "Via"
+            },
+            {
+                "name": "WARNING",
+                "value": "Warning"
+            },
+            {
+                "name": "WWW_AUTHENTICATE",
+                "value": "WWW-Authenticate"
+            }
+        ]
+    },
+    {
+        "enumName": "MediaType",
+        "values": [
+            {
+                "name": "ALL_VALUE",
+                "value": "*/*"
+            },
+            {
+                "name": "APPLICATION_ATOM_XML_VALUE",
+                "value": "application/atom+xml"
+            },
+            {
+                "name": "APPLICATION_CBOR_VALUE",
+                "value": "application/cbor"
+            },
+            {
+                "name": "APPLICATION_FORM_URLENCODED_VALUE",
+                "value": "application/x-www-form-urlencoded"
+            },
+            {
+                "name": "APPLICATION_GRAPHQL_RESPONSE_VALUE",
+                "value": "application/graphql-response+json"
+            },
+            {
+                "name": "APPLICATION_GRAPHQL_VALUE",
+                "value": "application/graphql+json"
+            },
+            {
+                "name": "APPLICATION_JSON_UTF8_VALUE",
+                "value": "application/json;charset=UTF-8"
+            },
+            {
+                "name": "APPLICATION_JSON_VALUE",
+                "value": "application/json"
+            },
+            {
+                "name": "APPLICATION_NDJSON_VALUE",
+                "value": "application/x-ndjson"
+            },
+            {
+                "name": "APPLICATION_OCTET_STREAM_VALUE",
+                "value": "application/octet-stream"
+            },
+            {
+                "name": "APPLICATION_PDF_VALUE",
+                "value": "application/pdf"
+            },
+            {
+                "name": "APPLICATION_PROBLEM_JSON_UTF8_VALUE",
+                "value": "application/problem+json;charset=UTF-8"
+            },
+            {
+                "name": "APPLICATION_PROBLEM_JSON_VALUE",
+                "value": "application/problem+json"
+            },
+            {
+                "name": "APPLICATION_PROBLEM_XML_VALUE",
+                "value": "application/problem+xml"
+            },
+            {
+                "name": "APPLICATION_PROTOBUF_VALUE",
+                "value": "application/x-protobuf"
+            },
+            {
+                "name": "APPLICATION_RSS_XML_VALUE",
+                "value": "application/rss+xml"
+            },
+            {
+                "name": "APPLICATION_STREAM_JSON_VALUE",
+                "value": "application/stream+json"
+            },
+            {
+                "name": "APPLICATION_XHTML_XML_VALUE",
+                "value": "application/xhtml+xml"
+            },
+            {
+                "name": "APPLICATION_XML_VALUE",
+                "value": "application/xml"
+            },
+            {
+                "name": "IMAGE_GIF_VALUE",
+                "value": "image/gif"
+            },
+            {
+                "name": "IMAGE_JPEG_VALUE",
+                "value": "image/jpeg"
+            },
+            {
+                "name": "IMAGE_PNG_VALUE",
+                "value": "image/png"
+            },
+            {
+                "name": "MULTIPART_FORM_DATA_VALUE",
+                "value": "multipart/form-data"
+            },
+            {
+                "name": "MULTIPART_MIXED_VALUE",
+                "value": "multipart/mixed"
+            },
+            {
+                "name": "MULTIPART_RELATED_VALUE",
+                "value": "multipart/related"
+            },
+            {
+                "name": "TEXT_EVENT_STREAM_VALUE",
+                "value": "text/event-stream"
+            },
+            {
+                "name": "TEXT_HTML_VALUE",
+                "value": "text/html"
+            },
+            {
+                "name": "TEXT_MARKDOWN_VALUE",
+                "value": "text/markdown"
+            },
+            {
+                "name": "TEXT_PLAIN_VALUE",
+                "value": "text/plain"
+            },
+            {
+                "name": "TEXT_XML_VALUE",
+                "value": "text/xml"
+            }
+        ]
+    },
+    {
+        "enumName": "ProtobufDecoder",
+        "values": [
+            {
+                "name": "DEFAULT_MESSAGE_MAX_SIZE",
+                "value": "262144"
+            }
+        ]
+    },
+    {
+        "enumName": "ProblemDetailJacksonXmlMixin",
+        "values": [
+            {
+                "name": "RFC_7807_NAMESPACE",
+                "value": "urn:ietf:rfc:7807"
+            }
+        ]
+    },
+    {
+        "enumName": "ProtobufHttpMessageConverter",
+        "values": [
+            {
+                "name": "X_PROTOBUF_MESSAGE_HEADER",
+                "value": "X-Protobuf-Message"
+            },
+            {
+                "name": "X_PROTOBUF_SCHEMA_HEADER",
+                "value": "X-Protobuf-Schema"
+            }
+        ]
+    },
+    {
+        "enumName": "SqlReturnType",
+        "values": [
+            {
+                "name": "TYPE_UNKNOWN",
+                "value": "-2147483648"
+            }
+        ]
+    },
+    {
+        "enumName": "SqlTypeValue",
+        "values": [
+            {
+                "name": "TYPE_UNKNOWN",
+                "value": "-2147483648"
+            }
+        ]
+    },
+    {
+        "enumName": "StatementCreatorUtils",
+        "values": [
+            {
+                "name": "IGNORE_GETPARAMETERTYPE_PROPERTY_NAME",
+                "value": "spring.jdbc.getParameterType.ignore"
+            }
+        ]
+    },
+    {
+        "enumName": "NamedParameterJdbcTemplate",
+        "values": [
+            {
+                "name": "DEFAULT_CACHE_LIMIT",
+                "value": "256"
+            }
+        ]
+    },
+    {
+        "enumName": "SqlParameterSource",
+        "values": [
+            {
+                "name": "TYPE_UNKNOWN",
+                "value": "-2147483648"
+            }
+        ]
+    },
+    {
+        "enumName": "ConnectionHolder",
+        "values": [
+            {
+                "name": "SAVEPOINT_NAME_PREFIX",
+                "value": "SAVEPOINT_"
+            }
+        ]
+    },
+    {
+        "enumName": "DataSourceUtils",
+        "values": [
+            {
+                "name": "CONNECTION_SYNCHRONIZATION_ORDER",
+                "value": "1000"
+            }
+        ]
+    },
+    {
+        "enumName": "EmbeddedDatabaseFactory",
+        "values": [
+            {
+                "name": "DEFAULT_DATABASE_NAME",
+                "value": "testdb"
+            }
+        ]
+    },
+    {
+        "enumName": "ScriptUtils",
+        "values": [
+            {
+                "name": "DEFAULT_BLOCK_COMMENT_END_DELIMITER",
+                "value": "*/"
+            },
+            {
+                "name": "DEFAULT_BLOCK_COMMENT_START_DELIMITER",
+                "value": "/*"
+            },
+            {
+                "name": "DEFAULT_COMMENT_PREFIX",
+                "value": "--"
+            },
+            {
+                "name": "DEFAULT_STATEMENT_SEPARATOR",
+                "value": ";"
+            },
+            {
+                "name": "EOF_STATEMENT_SEPARATOR",
+                "value": "^^^ END OF SCRIPT ^^^"
+            },
+            {
+                "name": "FALLBACK_STATEMENT_SEPARATOR",
+                "value": "\\\\n"
+            }
+        ]
+    },
+    {
+        "enumName": "BatchSqlUpdate",
+        "values": [
+            {
+                "name": "DEFAULT_BATCH_SIZE",
+                "value": "5000"
+            }
+        ]
+    },
+    {
+        "enumName": "DatabaseStartupValidator",
+        "values": [
+            {
+                "name": "DEFAULT_INTERVAL",
+                "value": "1"
+            },
+            {
+                "name": "DEFAULT_TIMEOUT",
+                "value": "60"
+            }
+        ]
+    },
+    {
+        "enumName": "JdbcUtils",
+        "values": [
+            {
+                "name": "TYPE_UNKNOWN",
+                "value": "-2147483648"
+            }
+        ]
+    },
+    {
+        "enumName": "SQLErrorCodesFactory",
+        "values": [
+            {
+                "name": "SQL_ERROR_CODE_DEFAULT_PATH",
+                "value": "org/springframework/jdbc/support/sql-error-codes.xml"
+            },
+            {
+                "name": "SQL_ERROR_CODE_OVERRIDE_PATH",
+                "value": "sql-error-codes.xml"
+            }
+        ]
+    },
+    {
+        "enumName": "JmsListenerConfigUtils",
+        "values": [
+            {
+                "name": "JMS_LISTENER_ANNOTATION_PROCESSOR_BEAN_NAME",
+                "value": "org.springframework.jms.config.internalJmsListenerAnnotationProcessor"
+            },
+            {
+                "name": "JMS_LISTENER_ENDPOINT_REGISTRY_BEAN_NAME",
+                "value": "org.springframework.jms.config.internalJmsListenerEndpointRegistry"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractPollingMessageListenerContainer",
+        "values": [
+            {
+                "name": "DEFAULT_RECEIVE_TIMEOUT",
+                "value": "1000L"
+            }
+        ]
+    },
+    {
+        "enumName": "DefaultMessageListenerContainer",
+        "values": [
+            {
+                "name": "CACHE_AUTO",
+                "value": "4"
+            },
+            {
+                "name": "CACHE_CONNECTION",
+                "value": "1"
+            },
+            {
+                "name": "CACHE_CONSUMER",
+                "value": "3"
+            },
+            {
+                "name": "CACHE_NONE",
+                "value": "0"
+            },
+            {
+                "name": "CACHE_SESSION",
+                "value": "2"
+            },
+            {
+                "name": "DEFAULT_RECOVERY_INTERVAL",
+                "value": "5000L"
+            }
+        ]
+    },
+    {
+        "enumName": "MessageListenerAdapter",
+        "values": [
+            {
+                "name": "ORIGINAL_DEFAULT_LISTENER_METHOD",
+                "value": "handleMessage"
+            }
+        ]
+    },
+    {
+        "enumName": "JmsHeaderMapper",
+        "values": [
+            {
+                "name": "CONTENT_TYPE_PROPERTY",
+                "value": "content_type"
+            }
+        ]
+    },
+    {
+        "enumName": "JmsHeaders",
+        "values": [
+            {
+                "name": "CORRELATION_ID",
+                "value": "jms_correlationId"
+            },
+            {
+                "name": "DELIVERY_MODE",
+                "value": "jms_deliveryMode"
+            },
+            {
+                "name": "DESTINATION",
+                "value": "jms_destination"
+            },
+            {
+                "name": "EXPIRATION",
+                "value": "jms_expiration"
+            },
+            {
+                "name": "MESSAGE_ID",
+                "value": "jms_messageId"
+            },
+            {
+                "name": "PREFIX",
+                "value": "jms_"
+            },
+            {
+                "name": "PRIORITY",
+                "value": "jms_priority"
+            },
+            {
+                "name": "REDELIVERED",
+                "value": "jms_redelivered"
+            },
+            {
+                "name": "REPLY_TO",
+                "value": "jms_replyTo"
+            },
+            {
+                "name": "TIMESTAMP",
+                "value": "jms_timestamp"
+            },
+            {
+                "name": "TYPE",
+                "value": "jms_type"
+            }
+        ]
+    },
+    {
+        "enumName": "MappingJackson2MessageConverter",
+        "values": [
+            {
+                "name": "DEFAULT_ENCODING",
+                "value": "UTF-8"
+            }
+        ]
+    },
+    {
+        "enumName": "JmsDestinationAccessor",
+        "values": [
+            {
+                "name": "RECEIVE_TIMEOUT_INDEFINITE_WAIT",
+                "value": "0L"
+            },
+            {
+                "name": "RECEIVE_TIMEOUT_NO_WAIT",
+                "value": "-1L"
+            }
+        ]
+    },
+    {
+        "enumName": "MBeanExporter",
+        "values": [
+            {
+                "name": "AUTODETECT_ALL",
+                "value": "3"
+            },
+            {
+                "name": "AUTODETECT_ASSEMBLER",
+                "value": "2"
+            },
+            {
+                "name": "AUTODETECT_MBEAN",
+                "value": "1"
+            },
+            {
+                "name": "AUTODETECT_NONE",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractReflectiveMBeanInfoAssembler",
+        "values": [
+            {
+                "name": "ATTRIBUTE_OPERATION_VISIBILITY",
+                "value": "4"
+            },
+            {
+                "name": "FIELD_CLASS",
+                "value": "class"
+            },
+            {
+                "name": "FIELD_CURRENCY_TIME_LIMIT",
+                "value": "currencyTimeLimit"
+            },
+            {
+                "name": "FIELD_DEFAULT",
+                "value": "default"
+            },
+            {
+                "name": "FIELD_DISPLAY_NAME",
+                "value": "displayName"
+            },
+            {
+                "name": "FIELD_GET_METHOD",
+                "value": "getMethod"
+            },
+            {
+                "name": "FIELD_LOG",
+                "value": "log"
+            },
+            {
+                "name": "FIELD_LOG_FILE",
+                "value": "logFile"
+            },
+            {
+                "name": "FIELD_METRIC_CATEGORY",
+                "value": "metricCategory"
+            },
+            {
+                "name": "FIELD_METRIC_TYPE",
+                "value": "metricType"
+            },
+            {
+                "name": "FIELD_PERSIST_LOCATION",
+                "value": "persistLocation"
+            },
+            {
+                "name": "FIELD_PERSIST_NAME",
+                "value": "persistName"
+            },
+            {
+                "name": "FIELD_PERSIST_PERIOD",
+                "value": "persistPeriod"
+            },
+            {
+                "name": "FIELD_PERSIST_POLICY",
+                "value": "persistPolicy"
+            },
+            {
+                "name": "FIELD_ROLE",
+                "value": "role"
+            },
+            {
+                "name": "FIELD_SET_METHOD",
+                "value": "setMethod"
+            },
+            {
+                "name": "FIELD_UNITS",
+                "value": "units"
+            },
+            {
+                "name": "FIELD_VISIBILITY",
+                "value": "visibility"
+            },
+            {
+                "name": "ROLE_GETTER",
+                "value": "getter"
+            },
+            {
+                "name": "ROLE_OPERATION",
+                "value": "operation"
+            },
+            {
+                "name": "ROLE_SETTER",
+                "value": "setter"
+            }
+        ]
+    },
+    {
+        "enumName": "IdentityNamingStrategy",
+        "values": [
+            {
+                "name": "HASH_CODE_KEY",
+                "value": "hashCode"
+            },
+            {
+                "name": "TYPE_KEY",
+                "value": "type"
+            }
+        ]
+    },
+    {
+        "enumName": "ConnectorServerFactoryBean",
+        "values": [
+            {
+                "name": "DEFAULT_SERVICE_URL",
+                "value": "service:jmx:jmxmp://localhost:9875"
+            }
+        ]
+    },
+    {
+        "enumName": "JmxUtils",
+        "values": [
+            {
+                "name": "IDENTITY_OBJECT_NAME_KEY",
+                "value": "identity"
+            }
+        ]
+    },
+    {
+        "enumName": "JndiLocatorDelegate",
+        "values": [
+            {
+                "name": "IGNORE_JNDI_PROPERTY_NAME",
+                "value": "spring.jndi.ignore"
+            }
+        ]
+    },
+    {
+        "enumName": "JndiLocatorSupport",
+        "values": [
+            {
+                "name": "CONTAINER_PREFIX",
+                "value": "java:comp/env/"
+            }
+        ]
+    },
+    {
+        "enumName": "JavaMailSenderImpl",
+        "values": [
+            {
+                "name": "DEFAULT_PORT",
+                "value": "-1"
+            },
+            {
+                "name": "DEFAULT_PROTOCOL",
+                "value": "smtp"
+            }
+        ]
+    },
+    {
+        "enumName": "MimeMessageHelper",
+        "values": [
+            {
+                "name": "MULTIPART_MODE_MIXED",
+                "value": "1"
+            },
+            {
+                "name": "MULTIPART_MODE_MIXED_RELATED",
+                "value": "3"
+            },
+            {
+                "name": "MULTIPART_MODE_NO",
+                "value": "0"
+            },
+            {
+                "name": "MULTIPART_MODE_RELATED",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "enumName": "MessageChannel",
+        "values": [
+            {
+                "name": "INDEFINITE_TIMEOUT",
+                "value": "-1L"
+            }
+        ]
+    },
+    {
+        "enumName": "MessageHeaders",
+        "values": [
+            {
+                "name": "CONTENT_TYPE",
+                "value": "contentType"
+            },
+            {
+                "name": "ERROR_CHANNEL",
+                "value": "errorChannel"
+            },
+            {
+                "name": "ID",
+                "value": "id"
+            },
+            {
+                "name": "REPLY_CHANNEL",
+                "value": "replyChannel"
+            },
+            {
+                "name": "TIMESTAMP",
+                "value": "timestamp"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractMessageSendingTemplate<D>",
+        "values": [
+            {
+                "name": "CONVERSION_HINT_HEADER",
+                "value": "conversionHint"
+            }
+        ]
+    },
+    {
+        "enumName": "GenericMessagingTemplate",
+        "values": [
+            {
+                "name": "DEFAULT_RECEIVE_TIMEOUT_HEADER",
+                "value": "receiveTimeout"
+            },
+            {
+                "name": "DEFAULT_SEND_TIMEOUT_HEADER",
+                "value": "sendTimeout"
+            }
+        ]
+    },
+    {
+        "enumName": "DestinationPatternsMessageCondition",
+        "values": [
+            {
+                "name": "LOOKUP_DESTINATION_HEADER",
+                "value": "lookupDestination"
+            }
+        ]
+    },
+    {
+        "enumName": "ValueConstants",
+        "values": [
+            {
+                "name": "DEFAULT_NONE",
+                "value": "\\\\n\\\\t\\\\t\\\\n\\\\t\\\\t\\\\n\\\\ue000\\\\ue001\\\\ue002\\\\n\\\\t\\\\t\\\\t\\\\t\\\\n"
+            }
+        ]
+    },
+    {
+        "enumName": "HandlerMethodReturnValueHandler",
+        "values": [
+            {
+                "name": "DATA_BUFFER_FACTORY_HEADER",
+                "value": "dataBufferFactory"
+            }
+        ]
+    },
+    {
+        "enumName": "MetadataExtractor",
+        "values": [
+            {
+                "name": "ROUTE_KEY",
+                "value": "route"
+            }
+        ]
+    },
+    {
+        "enumName": "RSocketFrameTypeMessageCondition",
+        "values": [
+            {
+                "name": "FRAME_TYPE_HEADER",
+                "value": "rsocketFrameType"
+            }
+        ]
+    },
+    {
+        "enumName": "RSocketPayloadReturnValueHandler",
+        "values": [
+            {
+                "name": "RESPONSE_HEADER",
+                "value": "rsocketResponse"
+            }
+        ]
+    },
+    {
+        "enumName": "RSocketRequesterMethodArgumentResolver",
+        "values": [
+            {
+                "name": "RSOCKET_REQUESTER_HEADER",
+                "value": "rsocketRequester"
+            }
+        ]
+    },
+    {
+        "enumName": "SimpMessageHeaderAccessor",
+        "values": [
+            {
+                "name": "CONNECT_MESSAGE_HEADER",
+                "value": "simpConnectMessage"
+            },
+            {
+                "name": "DESTINATION_HEADER",
+                "value": "simpDestination"
+            },
+            {
+                "name": "DISCONNECT_MESSAGE_HEADER",
+                "value": "simpDisconnectMessage"
+            },
+            {
+                "name": "HEART_BEAT_HEADER",
+                "value": "simpHeartbeat"
+            },
+            {
+                "name": "IGNORE_ERROR",
+                "value": "simpIgnoreError"
+            },
+            {
+                "name": "MESSAGE_TYPE_HEADER",
+                "value": "simpMessageType"
+            },
+            {
+                "name": "ORIGINAL_DESTINATION",
+                "value": "simpOrigDestination"
+            },
+            {
+                "name": "SESSION_ATTRIBUTES",
+                "value": "simpSessionAttributes"
+            },
+            {
+                "name": "SESSION_ID_HEADER",
+                "value": "simpSessionId"
+            },
+            {
+                "name": "SUBSCRIPTION_ID_HEADER",
+                "value": "simpSubscriptionId"
+            },
+            {
+                "name": "USER_HEADER",
+                "value": "simpUser"
+            }
+        ]
+    },
+    {
+        "enumName": "DefaultSubscriptionRegistry",
+        "values": [
+            {
+                "name": "DEFAULT_CACHE_LIMIT",
+                "value": "1024"
+            }
+        ]
+    },
+    {
+        "enumName": "StompBrokerRelayMessageHandler",
+        "values": [
+            {
+                "name": "SYSTEM_SESSION_ID",
+                "value": "_system_"
+            }
+        ]
+    },
+    {
+        "enumName": "StompHeaderAccessor",
+        "values": [
+            {
+                "name": "STOMP_ACCEPT_VERSION_HEADER",
+                "value": "accept-version"
+            },
+            {
+                "name": "STOMP_ACK_HEADER",
+                "value": "ack"
+            },
+            {
+                "name": "STOMP_CONTENT_LENGTH_HEADER",
+                "value": "content-length"
+            },
+            {
+                "name": "STOMP_CONTENT_TYPE_HEADER",
+                "value": "content-type"
+            },
+            {
+                "name": "STOMP_DESTINATION_HEADER",
+                "value": "destination"
+            },
+            {
+                "name": "STOMP_HEARTBEAT_HEADER",
+                "value": "heart-beat"
+            },
+            {
+                "name": "STOMP_HOST_HEADER",
+                "value": "host"
+            },
+            {
+                "name": "STOMP_ID_HEADER",
+                "value": "id"
+            },
+            {
+                "name": "STOMP_LOGIN_HEADER",
+                "value": "login"
+            },
+            {
+                "name": "STOMP_MESSAGE_HEADER",
+                "value": "message"
+            },
+            {
+                "name": "STOMP_MESSAGE_ID_HEADER",
+                "value": "message-id"
+            },
+            {
+                "name": "STOMP_NACK_HEADER",
+                "value": "nack"
+            },
+            {
+                "name": "STOMP_PASSCODE_HEADER",
+                "value": "passcode"
+            },
+            {
+                "name": "STOMP_RECEIPT_HEADER",
+                "value": "receipt"
+            },
+            {
+                "name": "STOMP_RECEIPT_ID_HEADER",
+                "value": "receipt-id"
+            },
+            {
+                "name": "STOMP_SUBSCRIPTION_HEADER",
+                "value": "subscription"
+            },
+            {
+                "name": "STOMP_VERSION_HEADER",
+                "value": "version"
+            }
+        ]
+    },
+    {
+        "enumName": "StompHeaders",
+        "values": [
+            {
+                "name": "ACCEPT_VERSION",
+                "value": "accept-version"
+            },
+            {
+                "name": "ACK",
+                "value": "ack"
+            },
+            {
+                "name": "CONTENT_LENGTH",
+                "value": "content-length"
+            },
+            {
+                "name": "CONTENT_TYPE",
+                "value": "content-type"
+            },
+            {
+                "name": "DESTINATION",
+                "value": "destination"
+            },
+            {
+                "name": "HEARTBEAT",
+                "value": "heart-beat"
+            },
+            {
+                "name": "HOST",
+                "value": "host"
+            },
+            {
+                "name": "ID",
+                "value": "id"
+            },
+            {
+                "name": "LOGIN",
+                "value": "login"
+            },
+            {
+                "name": "MESSAGE_ID",
+                "value": "message-id"
+            },
+            {
+                "name": "PASSCODE",
+                "value": "passcode"
+            },
+            {
+                "name": "RECEIPT",
+                "value": "receipt"
+            },
+            {
+                "name": "RECEIPT_ID",
+                "value": "receipt-id"
+            },
+            {
+                "name": "SERVER",
+                "value": "server"
+            },
+            {
+                "name": "SESSION",
+                "value": "session"
+            },
+            {
+                "name": "SUBSCRIPTION",
+                "value": "subscription"
+            }
+        ]
+    },
+    {
+        "enumName": "NativeMessageHeaderAccessor",
+        "values": [
+            {
+                "name": "NATIVE_HEADERS",
+                "value": "nativeHeaders"
+            }
+        ]
+    },
+    {
+        "enumName": "MockPropertySource",
+        "values": [
+            {
+                "name": "MOCK_PROPERTIES_PROPERTY_SOURCE_NAME",
+                "value": "mockProperties"
+            }
+        ]
+    },
+    {
+        "enumName": "MockHttpServletRequest",
+        "values": [
+            {
+                "name": "DEFAULT_PROTOCOL",
+                "value": "HTTP/1.1"
+            },
+            {
+                "name": "DEFAULT_REMOTE_ADDR",
+                "value": "127.0.0.1"
+            },
+            {
+                "name": "DEFAULT_REMOTE_HOST",
+                "value": "localhost"
+            },
+            {
+                "name": "DEFAULT_SCHEME",
+                "value": "http"
+            },
+            {
+                "name": "DEFAULT_SERVER_ADDR",
+                "value": "127.0.0.1"
+            },
+            {
+                "name": "DEFAULT_SERVER_NAME",
+                "value": "localhost"
+            },
+            {
+                "name": "DEFAULT_SERVER_PORT",
+                "value": "80"
+            }
+        ]
+    },
+    {
+        "enumName": "MockHttpSession",
+        "values": [
+            {
+                "name": "SESSION_COOKIE_NAME",
+                "value": "JSESSION"
+            }
+        ]
+    },
+    {
+        "enumName": "SpringObjenesis",
+        "values": [
+            {
+                "name": "IGNORE_OBJENESIS_PROPERTY_NAME",
+                "value": "spring.objenesis.ignore"
+            }
+        ]
+    },
+    {
+        "enumName": "SessionFactoryUtils",
+        "values": [
+            {
+                "name": "SESSION_SYNCHRONIZATION_ORDER",
+                "value": "900"
+            }
+        ]
+    },
+    {
+        "enumName": "OpenSessionInViewFilter",
+        "values": [
+            {
+                "name": "DEFAULT_SESSION_FACTORY_BEAN_NAME",
+                "value": "sessionFactory"
+            }
+        ]
+    },
+    {
+        "enumName": "OpenSessionInViewInterceptor",
+        "values": [
+            {
+                "name": "PARTICIPATE_SUFFIX",
+                "value": ".PARTICIPATE"
+            }
+        ]
+    },
+    {
+        "enumName": "EntityManagerFactoryUtils",
+        "values": [
+            {
+                "name": "ENTITY_MANAGER_SYNCHRONIZATION_ORDER",
+                "value": "900"
+            }
+        ]
+    },
+    {
+        "enumName": "DefaultPersistenceUnitManager",
+        "values": [
+            {
+                "name": "DEFAULT_PERSISTENCE_XML_LOCATION",
+                "value": "classpath*:META-INF/persistence.xml"
+            },
+            {
+                "name": "ORIGINAL_DEFAULT_PERSISTENCE_UNIT_NAME",
+                "value": "default"
+            },
+            {
+                "name": "ORIGINAL_DEFAULT_PERSISTENCE_UNIT_ROOT_LOCATION",
+                "value": "classpath:"
+            }
+        ]
+    },
+    {
+        "enumName": "OpenEntityManagerInViewFilter",
+        "values": [
+            {
+                "name": "DEFAULT_ENTITY_MANAGER_FACTORY_BEAN_NAME",
+                "value": "entityManagerFactory"
+            }
+        ]
+    },
+    {
+        "enumName": "OpenEntityManagerInViewInterceptor",
+        "values": [
+            {
+                "name": "PARTICIPATE_SUFFIX",
+                "value": ".PARTICIPATE"
+            }
+        ]
+    },
+    {
+        "enumName": "XStreamMarshaller",
+        "values": [
+            {
+                "name": "DEFAULT_ENCODING",
+                "value": "UTF-8"
+            }
+        ]
+    },
+    {
+        "enumName": "ConnectionFactoryUtils",
+        "values": [
+            {
+                "name": "CONNECTION_SYNCHRONIZATION_ORDER",
+                "value": "1000"
+            }
+        ]
+    },
+    {
+        "enumName": "ScriptUtils",
+        "values": [
+            {
+                "name": "DEFAULT_BLOCK_COMMENT_END_DELIMITER",
+                "value": "*/"
+            },
+            {
+                "name": "DEFAULT_BLOCK_COMMENT_START_DELIMITER",
+                "value": "/*"
+            },
+            {
+                "name": "DEFAULT_STATEMENT_SEPARATOR",
+                "value": ";"
+            },
+            {
+                "name": "EOF_STATEMENT_SEPARATOR",
+                "value": "^^^ END OF SCRIPT ^^^"
+            },
+            {
+                "name": "FALLBACK_STATEMENT_SEPARATOR",
+                "value": "\\\\n"
+            }
+        ]
+    },
+    {
+        "enumName": "AsyncAnnotationBeanPostProcessor",
+        "values": [
+            {
+                "name": "DEFAULT_TASK_EXECUTOR_BEAN_NAME",
+                "value": "taskExecutor"
+            }
+        ]
+    },
+    {
+        "enumName": "Scheduled",
+        "values": [
+            {
+                "name": "CRON_DISABLED",
+                "value": "-"
+            }
+        ]
+    },
+    {
+        "enumName": "ScheduledAnnotationBeanPostProcessor",
+        "values": [
+            {
+                "name": "DEFAULT_TASK_SCHEDULER_BEAN_NAME",
+                "value": "taskScheduler"
+            }
+        ]
+    },
+    {
+        "enumName": "ScheduledTaskRegistrar",
+        "values": [
+            {
+                "name": "CRON_DISABLED",
+                "value": "-"
+            }
+        ]
+    },
+    {
+        "enumName": "TaskManagementConfigUtils",
+        "values": [
+            {
+                "name": "ASYNC_ANNOTATION_PROCESSOR_BEAN_NAME",
+                "value": "org.springframework.context.annotation.internalAsyncAnnotationProcessor"
+            },
+            {
+                "name": "ASYNC_EXECUTION_ASPECT_BEAN_NAME",
+                "value": "org.springframework.scheduling.config.internalAsyncExecutionAspect"
+            },
+            {
+                "name": "SCHEDULED_ANNOTATION_PROCESSOR_BEAN_NAME",
+                "value": "org.springframework.context.annotation.internalScheduledAnnotationProcessor"
+            }
+        ]
+    },
+    {
+        "enumName": "TaskSchedulerRouter",
+        "values": [
+            {
+                "name": "DEFAULT_TASK_SCHEDULER_BEAN_NAME",
+                "value": "taskScheduler"
+            }
+        ]
+    },
+    {
+        "enumName": "LocalDataSourceJobStore",
+        "values": [
+            {
+                "name": "NON_TX_DATA_SOURCE_PREFIX",
+                "value": "springNonTxDataSource."
+            },
+            {
+                "name": "TX_DATA_SOURCE_PREFIX",
+                "value": "springTxDataSource."
+            }
+        ]
+    },
+    {
+        "enumName": "SchedulerFactoryBean",
+        "values": [
+            {
+                "name": "DEFAULT_THREAD_COUNT",
+                "value": "10"
+            },
+            {
+                "name": "PROP_THREAD_COUNT",
+                "value": "org.quartz.threadPool.threadCount"
+            }
+        ]
+    },
+    {
+        "enumName": "ScriptFactoryPostProcessor",
+        "values": [
+            {
+                "name": "INLINE_SCRIPT_PREFIX",
+                "value": "inline:"
+            }
+        ]
+    },
+    {
+        "enumName": "CacheAwareContextLoaderDelegate",
+        "values": [
+            {
+                "name": "CONTEXT_FAILURE_THRESHOLD_PROPERTY_NAME",
+                "value": "spring.test.context.failure.threshold"
+            },
+            {
+                "name": "DEFAULT_CONTEXT_FAILURE_THRESHOLD",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "enumName": "NestedTestConfiguration",
+        "values": [
+            {
+                "name": "ENCLOSING_CONFIGURATION_PROPERTY_NAME",
+                "value": "spring.test.enclosing.configuration"
+            }
+        ]
+    },
+    {
+        "enumName": "TestConstructor",
+        "values": [
+            {
+                "name": "TEST_CONSTRUCTOR_AUTOWIRE_MODE_PROPERTY_NAME",
+                "value": "spring.test.constructor.autowire.mode"
+            }
+        ]
+    },
+    {
+        "enumName": "TestContextAotGenerator",
+        "values": [
+            {
+                "name": "FAIL_ON_ERROR_PROPERTY_NAME",
+                "value": "spring.test.aot.processing.failOnError"
+            }
+        ]
+    },
+    {
+        "enumName": "ContextCache",
+        "values": [
+            {
+                "name": "CONTEXT_CACHE_LOGGING_CATEGORY",
+                "value": "org.springframework.test.context.cache"
+            },
+            {
+                "name": "DEFAULT_MAX_CONTEXT_CACHE_SIZE",
+                "value": "32"
+            },
+            {
+                "name": "MAX_CONTEXT_CACHE_SIZE_PROPERTY_NAME",
+                "value": "spring.test.context.cache.maxSize"
+            }
+        ]
+    },
+    {
+        "enumName": "TestPropertySourceUtils",
+        "values": [
+            {
+                "name": "INLINED_PROPERTIES_PROPERTY_SOURCE_NAME",
+                "value": "Inlined Test Properties"
+            }
+        ]
+    },
+    {
+        "enumName": "TestContextTransactionUtils",
+        "values": [
+            {
+                "name": "DEFAULT_DATA_SOURCE_NAME",
+                "value": "dataSource"
+            },
+            {
+                "name": "DEFAULT_TRANSACTION_MANAGER_NAME",
+                "value": "transactionManager"
+            }
+        ]
+    },
+    {
+        "enumName": "WebTestClient",
+        "values": [
+            {
+                "name": "WEBTESTCLIENT_REQUEST_ID",
+                "value": "WebTestClient-Request-Id"
+            }
+        ]
+    },
+    {
+        "enumName": "HeuristicCompletionException",
+        "values": [
+            {
+                "name": "STATE_COMMITTED",
+                "value": "1"
+            },
+            {
+                "name": "STATE_MIXED",
+                "value": "3"
+            },
+            {
+                "name": "STATE_ROLLED_BACK",
+                "value": "2"
+            },
+            {
+                "name": "STATE_UNKNOWN",
+                "value": "0"
+            }
+        ]
+    },
+    {
+        "enumName": "TransactionDefinition",
+        "values": [
+            {
+                "name": "ISOLATION_DEFAULT",
+                "value": "-1"
+            },
+            {
+                "name": "ISOLATION_READ_COMMITTED",
+                "value": "2"
+            },
+            {
+                "name": "ISOLATION_READ_UNCOMMITTED",
+                "value": "1"
+            },
+            {
+                "name": "ISOLATION_REPEATABLE_READ",
+                "value": "4"
+            },
+            {
+                "name": "ISOLATION_SERIALIZABLE",
+                "value": "8"
+            },
+            {
+                "name": "PROPAGATION_MANDATORY",
+                "value": "2"
+            },
+            {
+                "name": "PROPAGATION_NESTED",
+                "value": "6"
+            },
+            {
+                "name": "PROPAGATION_NEVER",
+                "value": "5"
+            },
+            {
+                "name": "PROPAGATION_NOT_SUPPORTED",
+                "value": "4"
+            },
+            {
+                "name": "PROPAGATION_REQUIRED",
+                "value": "0"
+            },
+            {
+                "name": "PROPAGATION_REQUIRES_NEW",
+                "value": "3"
+            },
+            {
+                "name": "PROPAGATION_SUPPORTS",
+                "value": "1"
+            },
+            {
+                "name": "TIMEOUT_DEFAULT",
+                "value": "-1"
+            }
+        ]
+    },
+    {
+        "enumName": "TransactionManagementConfigUtils",
+        "values": [
+            {
+                "name": "JTA_TRANSACTION_ASPECT_BEAN_NAME",
+                "value": "org.springframework.transaction.config.internalJtaTransactionAspect"
+            },
+            {
+                "name": "JTA_TRANSACTION_ASPECT_CLASS_NAME",
+                "value": "org.springframework.transaction.aspectj.JtaAnnotationTransactionAspect"
+            },
+            {
+                "name": "JTA_TRANSACTION_ASPECT_CONFIGURATION_CLASS_NAME",
+                "value": "org.springframework.transaction.aspectj.AspectJJtaTransactionManagementConfiguration"
+            },
+            {
+                "name": "TRANSACTION_ADVISOR_BEAN_NAME",
+                "value": "org.springframework.transaction.config.internalTransactionAdvisor"
+            },
+            {
+                "name": "TRANSACTION_ASPECT_BEAN_NAME",
+                "value": "org.springframework.transaction.config.internalTransactionAspect"
+            },
+            {
+                "name": "TRANSACTION_ASPECT_CLASS_NAME",
+                "value": "org.springframework.transaction.aspectj.AnnotationTransactionAspect"
+            },
+            {
+                "name": "TRANSACTION_ASPECT_CONFIGURATION_CLASS_NAME",
+                "value": "org.springframework.transaction.aspectj.AspectJTransactionManagementConfiguration"
+            },
+            {
+                "name": "TRANSACTIONAL_EVENT_LISTENER_FACTORY_BEAN_NAME",
+                "value": "org.springframework.transaction.config.internalTransactionalEventListenerFactory"
+            }
+        ]
+    },
+    {
+        "enumName": "RuleBasedTransactionAttribute",
+        "values": [
+            {
+                "name": "PREFIX_COMMIT_RULE",
+                "value": "+"
+            },
+            {
+                "name": "PREFIX_ROLLBACK_RULE",
+                "value": "-"
+            }
+        ]
+    },
+    {
+        "enumName": "JtaTransactionManager",
+        "values": [
+            {
+                "name": "DEFAULT_TRANSACTION_SYNCHRONIZATION_REGISTRY_NAME",
+                "value": "java:comp/TransactionSynchronizationRegistry"
+            },
+            {
+                "name": "DEFAULT_USER_TRANSACTION_NAME",
+                "value": "java:comp/UserTransaction"
+            }
+        ]
+    },
+    {
+        "enumName": "TransactionSynchronization",
+        "values": [
+            {
+                "name": "STATUS_COMMITTED",
+                "value": "0"
+            },
+            {
+                "name": "STATUS_ROLLED_BACK",
+                "value": "1"
+            },
+            {
+                "name": "STATUS_UNKNOWN",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractPlatformTransactionManager",
+        "values": [
+            {
+                "name": "SYNCHRONIZATION_ALWAYS",
+                "value": "0"
+            },
+            {
+                "name": "SYNCHRONIZATION_NEVER",
+                "value": "2"
+            },
+            {
+                "name": "SYNCHRONIZATION_ON_ACTUAL_TRANSACTION",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "enumName": "DefaultTransactionDefinition",
+        "values": [
+            {
+                "name": "PREFIX_ISOLATION",
+                "value": "ISOLATION_"
+            },
+            {
+                "name": "PREFIX_PROPAGATION",
+                "value": "PROPAGATION_"
+            },
+            {
+                "name": "PREFIX_TIMEOUT",
+                "value": "timeout_"
+            },
+            {
+                "name": "READ_ONLY_MARKER",
+                "value": "readOnly"
+            }
+        ]
+    },
+    {
+        "enumName": "TransactionSynchronization",
+        "values": [
+            {
+                "name": "STATUS_COMMITTED",
+                "value": "0"
+            },
+            {
+                "name": "STATUS_ROLLED_BACK",
+                "value": "1"
+            },
+            {
+                "name": "STATUS_UNKNOWN",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "enumName": "UiApplicationContextUtils",
+        "values": [
+            {
+                "name": "THEME_SOURCE_BEAN_NAME",
+                "value": "themeSource"
+            }
+        ]
+    },
+    {
+        "enumName": "AntPathMatcher",
+        "values": [
+            {
+                "name": "DEFAULT_PATH_SEPARATOR",
+                "value": "/"
+            }
+        ]
+    },
+    {
+        "enumName": "ClassUtils",
+        "values": [
+            {
+                "name": "ARRAY_SUFFIX",
+                "value": "[]"
+            },
+            {
+                "name": "CGLIB_CLASS_SEPARATOR",
+                "value": "$$"
+            },
+            {
+                "name": "CLASS_FILE_SUFFIX",
+                "value": ".class"
+            }
+        ]
+    },
+    {
+        "enumName": "ConcurrencyThrottleSupport",
+        "values": [
+            {
+                "name": "NO_CONCURRENCY",
+                "value": "0"
+            },
+            {
+                "name": "UNBOUNDED_CONCURRENCY",
+                "value": "-1"
+            }
+        ]
+    },
+    {
+        "enumName": "FileCopyUtils",
+        "values": [
+            {
+                "name": "BUFFER_SIZE",
+                "value": "8192"
+            }
+        ]
+    },
+    {
+        "enumName": "MimeType",
+        "values": [
+            {
+                "name": "WILDCARD_TYPE",
+                "value": "*"
+            }
+        ]
+    },
+    {
+        "enumName": "MimeTypeUtils",
+        "values": [
+            {
+                "name": "ALL_VALUE",
+                "value": "*/*"
+            },
+            {
+                "name": "APPLICATION_GRAPHQL_VALUE",
+                "value": "application/graphql+json"
+            },
+            {
+                "name": "APPLICATION_JSON_VALUE",
+                "value": "application/json"
+            },
+            {
+                "name": "APPLICATION_OCTET_STREAM_VALUE",
+                "value": "application/octet-stream"
+            },
+            {
+                "name": "APPLICATION_XML_VALUE",
+                "value": "application/xml"
+            },
+            {
+                "name": "IMAGE_GIF_VALUE",
+                "value": "image/gif"
+            },
+            {
+                "name": "IMAGE_JPEG_VALUE",
+                "value": "image/jpeg"
+            },
+            {
+                "name": "IMAGE_PNG_VALUE",
+                "value": "image/png"
+            },
+            {
+                "name": "TEXT_HTML_VALUE",
+                "value": "text/html"
+            },
+            {
+                "name": "TEXT_PLAIN_VALUE",
+                "value": "text/plain"
+            },
+            {
+                "name": "TEXT_XML_VALUE",
+                "value": "text/xml"
+            }
+        ]
+    },
+    {
+        "enumName": "ResourceUtils",
+        "values": [
+            {
+                "name": "CLASSPATH_URL_PREFIX",
+                "value": "classpath:"
+            },
+            {
+                "name": "FILE_URL_PREFIX",
+                "value": "file:"
+            },
+            {
+                "name": "JAR_FILE_EXTENSION",
+                "value": ".jar"
+            },
+            {
+                "name": "JAR_URL_PREFIX",
+                "value": "jar:"
+            },
+            {
+                "name": "JAR_URL_SEPARATOR",
+                "value": "!/"
+            },
+            {
+                "name": "URL_PROTOCOL_FILE",
+                "value": "file"
+            },
+            {
+                "name": "URL_PROTOCOL_JAR",
+                "value": "jar"
+            },
+            {
+                "name": "URL_PROTOCOL_VFS",
+                "value": "vfs"
+            },
+            {
+                "name": "URL_PROTOCOL_VFSFILE",
+                "value": "vfsfile"
+            },
+            {
+                "name": "URL_PROTOCOL_VFSZIP",
+                "value": "vfszip"
+            },
+            {
+                "name": "URL_PROTOCOL_WAR",
+                "value": "war"
+            },
+            {
+                "name": "URL_PROTOCOL_WSJAR",
+                "value": "wsjar"
+            },
+            {
+                "name": "URL_PROTOCOL_ZIP",
+                "value": "zip"
+            },
+            {
+                "name": "WAR_URL_PREFIX",
+                "value": "war:"
+            },
+            {
+                "name": "WAR_URL_SEPARATOR",
+                "value": "*/"
+            }
+        ]
+    },
+    {
+        "enumName": "StreamUtils",
+        "values": [
+            {
+                "name": "BUFFER_SIZE",
+                "value": "8192"
+            }
+        ]
+    },
+    {
+        "enumName": "SystemPropertyUtils",
+        "values": [
+            {
+                "name": "PLACEHOLDER_PREFIX",
+                "value": "${"
+            },
+            {
+                "name": "PLACEHOLDER_SUFFIX",
+                "value": "}"
+            },
+            {
+                "name": "VALUE_SEPARATOR",
+                "value": ":"
+            }
+        ]
+    },
+    {
+        "enumName": "BackOffExecution",
+        "values": [
+            {
+                "name": "STOP",
+                "value": "-1L"
+            }
+        ]
+    },
+    {
+        "enumName": "ExponentialBackOff",
+        "values": [
+            {
+                "name": "DEFAULT_INITIAL_INTERVAL",
+                "value": "2000L"
+            },
+            {
+                "name": "DEFAULT_MAX_ATTEMPTS",
+                "value": "2147483647"
+            },
+            {
+                "name": "DEFAULT_MAX_ELAPSED_TIME",
+                "value": "9223372036854775807L"
+            },
+            {
+                "name": "DEFAULT_MAX_INTERVAL",
+                "value": "30000L"
+            },
+            {
+                "name": "DEFAULT_MULTIPLIER",
+                "value": "1.5"
+            }
+        ]
+    },
+    {
+        "enumName": "FixedBackOff",
+        "values": [
+            {
+                "name": "DEFAULT_INTERVAL",
+                "value": "5000L"
+            },
+            {
+                "name": "UNLIMITED_ATTEMPTS",
+                "value": "9223372036854775807L"
+            }
+        ]
+    },
+    {
+        "enumName": "TransformerUtils",
+        "values": [
+            {
+                "name": "DEFAULT_INDENT_AMOUNT",
+                "value": "2"
+            }
+        ]
+    },
+    {
+        "enumName": "XmlValidationModeDetector",
+        "values": [
+            {
+                "name": "VALIDATION_AUTO",
+                "value": "1"
+            },
+            {
+                "name": "VALIDATION_DTD",
+                "value": "2"
+            },
+            {
+                "name": "VALIDATION_NONE",
+                "value": "0"
+            },
+            {
+                "name": "VALIDATION_XSD",
+                "value": "3"
+            }
+        ]
+    },
+    {
+        "enumName": "DataBinder",
+        "values": [
+            {
+                "name": "DEFAULT_AUTO_GROW_COLLECTION_LIMIT",
+                "value": "256"
+            },
+            {
+                "name": "DEFAULT_OBJECT_NAME",
+                "value": "target"
+            }
+        ]
+    },
+    {
+        "enumName": "DefaultBindingErrorProcessor",
+        "values": [
+            {
+                "name": "MISSING_FIELD_ERROR_CODE",
+                "value": "required"
+            }
+        ]
+    },
+    {
+        "enumName": "DefaultMessageCodesResolver",
+        "values": [
+            {
+                "name": "CODE_SEPARATOR",
+                "value": "."
+            }
+        ]
+    },
+    {
+        "enumName": "Errors",
+        "values": [
+            {
+                "name": "NESTED_PATH_SEPARATOR",
+                "value": "."
+            }
+        ]
+    },
+    {
+        "enumName": "ServletRequestParameterPropertyValues",
+        "values": [
+            {
+                "name": "DEFAULT_PREFIX_SEPARATOR",
+                "value": "_"
+            }
+        ]
+    },
+    {
+        "enumName": "WebDataBinder",
+        "values": [
+            {
+                "name": "DEFAULT_FIELD_DEFAULT_PREFIX",
+                "value": "!"
+            },
+            {
+                "name": "DEFAULT_FIELD_MARKER_PREFIX",
+                "value": "_"
+            }
+        ]
+    },
+    {
+        "enumName": "ValueConstants",
+        "values": [
+            {
+                "name": "DEFAULT_NONE",
+                "value": "\\\\n\\\\t\\\\t\\\\n\\\\t\\\\t\\\\n\\\\ue000\\\\ue001\\\\ue002\\\\n\\\\t\\\\t\\\\t\\\\t\\\\n"
+            }
+        ]
+    },
+    {
+        "enumName": "ConfigurableWebApplicationContext",
+        "values": [
+            {
+                "name": "SERVLET_CONFIG_BEAN_NAME",
+                "value": "servletConfig"
+            }
+        ]
+    },
+    {
+        "enumName": "ContextLoader",
+        "values": [
+            {
+                "name": "CONFIG_LOCATION_PARAM",
+                "value": "contextConfigLocation"
+            },
+            {
+                "name": "CONTEXT_CLASS_PARAM",
+                "value": "contextClass"
+            },
+            {
+                "name": "CONTEXT_ID_PARAM",
+                "value": "contextId"
+            },
+            {
+                "name": "CONTEXT_INITIALIZER_CLASSES_PARAM",
+                "value": "contextInitializerClasses"
+            },
+            {
+                "name": "GLOBAL_INITIALIZER_CLASSES_PARAM",
+                "value": "globalInitializerClasses"
+            }
+        ]
+    },
+    {
+        "enumName": "WebApplicationContext",
+        "values": [
+            {
+                "name": "CONTEXT_ATTRIBUTES_BEAN_NAME",
+                "value": "contextAttributes"
+            },
+            {
+                "name": "CONTEXT_PARAMETERS_BEAN_NAME",
+                "value": "contextParameters"
+            },
+            {
+                "name": "SCOPE_APPLICATION",
+                "value": "application"
+            },
+            {
+                "name": "SCOPE_REQUEST",
+                "value": "request"
+            },
+            {
+                "name": "SCOPE_SESSION",
+                "value": "session"
+            },
+            {
+                "name": "SERVLET_CONTEXT_BEAN_NAME",
+                "value": "servletContext"
+            }
+        ]
+    },
+    {
+        "enumName": "RequestAttributes",
+        "values": [
+            {
+                "name": "REFERENCE_REQUEST",
+                "value": "request"
+            },
+            {
+                "name": "REFERENCE_SESSION",
+                "value": "session"
+            },
+            {
+                "name": "SCOPE_REQUEST",
+                "value": "0"
+            },
+            {
+                "name": "SCOPE_SESSION",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "enumName": "GroovyWebApplicationContext",
+        "values": [
+            {
+                "name": "DEFAULT_CONFIG_LOCATION",
+                "value": "/WEB-INF/applicationContext.groovy"
+            },
+            {
+                "name": "DEFAULT_CONFIG_LOCATION_PREFIX",
+                "value": "/WEB-INF/"
+            },
+            {
+                "name": "DEFAULT_CONFIG_LOCATION_SUFFIX",
+                "value": ".groovy"
+            }
+        ]
+    },
+    {
+        "enumName": "StandardServletEnvironment",
+        "values": [
+            {
+                "name": "JNDI_PROPERTY_SOURCE_NAME",
+                "value": "jndiProperties"
+            },
+            {
+                "name": "SERVLET_CONFIG_PROPERTY_SOURCE_NAME",
+                "value": "servletConfigInitParams"
+            },
+            {
+                "name": "SERVLET_CONTEXT_PROPERTY_SOURCE_NAME",
+                "value": "servletContextInitParams"
+            }
+        ]
+    },
+    {
+        "enumName": "XmlWebApplicationContext",
+        "values": [
+            {
+                "name": "DEFAULT_CONFIG_LOCATION",
+                "value": "/WEB-INF/applicationContext.xml"
+            },
+            {
+                "name": "DEFAULT_CONFIG_LOCATION_PREFIX",
+                "value": "/WEB-INF/"
+            },
+            {
+                "name": "DEFAULT_CONFIG_LOCATION_SUFFIX",
+                "value": ".xml"
+            }
+        ]
+    },
+    {
+        "enumName": "CorsConfiguration",
+        "values": [
+            {
+                "name": "ALL",
+                "value": "*"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractRequestLoggingFilter",
+        "values": [
+            {
+                "name": "DEFAULT_AFTER_MESSAGE_PREFIX",
+                "value": "After request ["
+            },
+            {
+                "name": "DEFAULT_AFTER_MESSAGE_SUFFIX",
+                "value": "]"
+            },
+            {
+                "name": "DEFAULT_BEFORE_MESSAGE_PREFIX",
+                "value": "Before request ["
+            },
+            {
+                "name": "DEFAULT_BEFORE_MESSAGE_SUFFIX",
+                "value": "]"
+            }
+        ]
+    },
+    {
+        "enumName": "HiddenHttpMethodFilter",
+        "values": [
+            {
+                "name": "DEFAULT_METHOD_PARAM",
+                "value": "_method"
+            }
+        ]
+    },
+    {
+        "enumName": "OncePerRequestFilter",
+        "values": [
+            {
+                "name": "ALREADY_FILTERED_SUFFIX",
+                "value": ".FILTERED"
+            }
+        ]
+    },
+    {
+        "enumName": "HiddenHttpMethodFilter",
+        "values": [
+            {
+                "name": "DEFAULT_METHOD_PARAMETER_NAME",
+                "value": "_method"
+            }
+        ]
+    },
+    {
+        "enumName": "DelegatingNavigationHandlerProxy",
+        "values": [
+            {
+                "name": "DEFAULT_TARGET_BEAN_NAME",
+                "value": "jsfNavigationHandler"
+            }
+        ]
+    },
+    {
+        "enumName": "WebApplicationContextFacesELResolver",
+        "values": [
+            {
+                "name": "WEB_APPLICATION_CONTEXT_VARIABLE_NAME",
+                "value": "webApplicationContext"
+            }
+        ]
+    },
+    {
+        "enumName": "MultipartFilter",
+        "values": [
+            {
+                "name": "DEFAULT_MULTIPART_RESOLVER_BEAN_NAME",
+                "value": "filterMultipartResolver"
+            }
+        ]
+    },
+    {
+        "enumName": "CachingResourceResolver",
+        "values": [
+            {
+                "name": "RESOLVED_RESOURCE_CACHE_KEY_PREFIX",
+                "value": "resolvedResource:"
+            },
+            {
+                "name": "RESOLVED_URL_PATH_CACHE_KEY_PREFIX",
+                "value": "resolvedUrlPath:"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractMessageWriterResultHandler",
+        "values": [
+            {
+                "name": "COROUTINES_FLOW_CLASS_NAME",
+                "value": "kotlinx.coroutines.flow.Flow"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractView",
+        "values": [
+            {
+                "name": "REQUEST_DATA_VALUE_PROCESSOR_BEAN_NAME",
+                "value": "requestDataValueProcessor"
+            }
+        ]
+    },
+    {
+        "enumName": "UrlBasedViewResolver",
+        "values": [
+            {
+                "name": "REDIRECT_URL_PREFIX",
+                "value": "redirect:"
+            }
+        ]
+    },
+    {
+        "enumName": "FreeMarkerView",
+        "values": [
+            {
+                "name": "SPRING_MACRO_REQUEST_CONTEXT_ATTRIBUTE",
+                "value": "springMacroRequestContext"
+            }
+        ]
+    },
+    {
+        "enumName": "Netty5WebSocketSessionSupport<T>",
+        "values": [
+            {
+                "name": "DEFAULT_FRAME_MAX_SIZE",
+                "value": "65536"
+            }
+        ]
+    },
+    {
+        "enumName": "NettyWebSocketSessionSupport<T>",
+        "values": [
+            {
+                "name": "DEFAULT_FRAME_MAX_SIZE",
+                "value": "65536"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractReactiveWebInitializer",
+        "values": [
+            {
+                "name": "DEFAULT_SERVLET_NAME",
+                "value": "http-handler-adapter"
+            }
+        ]
+    },
+    {
+        "enumName": "WebHttpHandlerBuilder",
+        "values": [
+            {
+                "name": "FORWARDED_HEADER_TRANSFORMER_BEAN_NAME",
+                "value": "forwardedHeaderTransformer"
+            },
+            {
+                "name": "LOCALE_CONTEXT_RESOLVER_BEAN_NAME",
+                "value": "localeContextResolver"
+            },
+            {
+                "name": "SERVER_CODEC_CONFIGURER_BEAN_NAME",
+                "value": "serverCodecConfigurer"
+            },
+            {
+                "name": "WEB_HANDLER_BEAN_NAME",
+                "value": "webHandler"
+            },
+            {
+                "name": "WEB_SESSION_MANAGER_BEAN_NAME",
+                "value": "webSessionManager"
+            }
+        ]
+    },
+    {
+        "enumName": "HeaderWebSessionIdResolver",
+        "values": [
+            {
+                "name": "DEFAULT_HEADER_NAME",
+                "value": "SESSION"
+            }
+        ]
+    },
+    {
+        "enumName": "DispatcherServlet",
+        "values": [
+            {
+                "name": "FLASH_MAP_MANAGER_BEAN_NAME",
+                "value": "flashMapManager"
+            },
+            {
+                "name": "HANDLER_ADAPTER_BEAN_NAME",
+                "value": "handlerAdapter"
+            },
+            {
+                "name": "HANDLER_EXCEPTION_RESOLVER_BEAN_NAME",
+                "value": "handlerExceptionResolver"
+            },
+            {
+                "name": "HANDLER_MAPPING_BEAN_NAME",
+                "value": "handlerMapping"
+            },
+            {
+                "name": "LOCALE_RESOLVER_BEAN_NAME",
+                "value": "localeResolver"
+            },
+            {
+                "name": "MULTIPART_RESOLVER_BEAN_NAME",
+                "value": "multipartResolver"
+            },
+            {
+                "name": "PAGE_NOT_FOUND_LOG_CATEGORY",
+                "value": "org.springframework.web.servlet.PageNotFound"
+            },
+            {
+                "name": "REQUEST_TO_VIEW_NAME_TRANSLATOR_BEAN_NAME",
+                "value": "viewNameTranslator"
+            },
+            {
+                "name": "THEME_RESOLVER_BEAN_NAME",
+                "value": "themeResolver"
+            },
+            {
+                "name": "VIEW_RESOLVER_BEAN_NAME",
+                "value": "viewResolver"
+            }
+        ]
+    },
+    {
+        "enumName": "FrameworkServlet",
+        "values": [
+            {
+                "name": "DEFAULT_NAMESPACE_SUFFIX",
+                "value": "-servlet"
+            }
+        ]
+    },
+    {
+        "enumName": "FreeMarkerConfigurerBeanDefinitionParser",
+        "values": [
+            {
+                "name": "BEAN_NAME",
+                "value": "mvcFreeMarkerConfigurer"
+            }
+        ]
+    },
+    {
+        "enumName": "GroovyMarkupConfigurerBeanDefinitionParser",
+        "values": [
+            {
+                "name": "BEAN_NAME",
+                "value": "mvcGroovyMarkupConfigurer"
+            }
+        ]
+    },
+    {
+        "enumName": "ScriptTemplateConfigurerBeanDefinitionParser",
+        "values": [
+            {
+                "name": "BEAN_NAME",
+                "value": "mvcScriptTemplateConfigurer"
+            }
+        ]
+    },
+    {
+        "enumName": "ViewResolversBeanDefinitionParser",
+        "values": [
+            {
+                "name": "VIEW_RESOLVER_BEAN_NAME",
+                "value": "mvcViewResolver"
+            }
+        ]
+    },
+    {
+        "enumName": "SimpleMappingExceptionResolver",
+        "values": [
+            {
+                "name": "DEFAULT_EXCEPTION_ATTRIBUTE",
+                "value": "exception"
+            }
+        ]
+    },
+    {
+        "enumName": "LocaleChangeInterceptor",
+        "values": [
+            {
+                "name": "DEFAULT_PARAM_NAME",
+                "value": "locale"
+            }
+        ]
+    },
+    {
+        "enumName": "RequestMappingInfoHandlerMethodMappingNamingStrategy",
+        "values": [
+            {
+                "name": "SEPARATOR",
+                "value": "#"
+            }
+        ]
+    },
+    {
+        "enumName": "MvcUriComponentsBuilder",
+        "values": [
+            {
+                "name": "MVC_URI_COMPONENTS_CONTRIBUTOR_BEAN_NAME",
+                "value": "mvcUriComponentsContributor"
+            }
+        ]
+    },
+    {
+        "enumName": "ResponseEntityExceptionHandler",
+        "values": [
+            {
+                "name": "PAGE_NOT_FOUND_LOG_CATEGORY",
+                "value": "org.springframework.web.servlet.PageNotFound"
+            }
+        ]
+    },
+    {
+        "enumName": "DefaultHandlerExceptionResolver",
+        "values": [
+            {
+                "name": "PAGE_NOT_FOUND_LOG_CATEGORY",
+                "value": "org.springframework.web.servlet.PageNotFound"
+            }
+        ]
+    },
+    {
+        "enumName": "CachingResourceResolver",
+        "values": [
+            {
+                "name": "RESOLVED_RESOURCE_CACHE_KEY_PREFIX",
+                "value": "resolvedResource:"
+            },
+            {
+                "name": "RESOLVED_URL_PATH_CACHE_KEY_PREFIX",
+                "value": "resolvedUrlPath:"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractDispatcherServletInitializer",
+        "values": [
+            {
+                "name": "DEFAULT_SERVLET_NAME",
+                "value": "dispatcher"
+            }
+        ]
+    },
+    {
+        "enumName": "RequestContext",
+        "values": [
+            {
+                "name": "DEFAULT_THEME_NAME",
+                "value": "theme"
+            }
+        ]
+    },
+    {
+        "enumName": "RequestContextUtils",
+        "values": [
+            {
+                "name": "REQUEST_DATA_VALUE_PROCESSOR_BEAN_NAME",
+                "value": "requestDataValueProcessor"
+            }
+        ]
+    },
+    {
+        "enumName": "WebContentGenerator",
+        "values": [
+            {
+                "name": "HEADER_CACHE_CONTROL",
+                "value": "Cache-Control"
+            },
+            {
+                "name": "METHOD_GET",
+                "value": "GET"
+            },
+            {
+                "name": "METHOD_HEAD",
+                "value": "HEAD"
+            },
+            {
+                "name": "METHOD_POST",
+                "value": "POST"
+            }
+        ]
+    },
+    {
+        "enumName": "BindErrorsTag",
+        "values": [
+            {
+                "name": "ERRORS_VARIABLE_NAME",
+                "value": "errors"
+            }
+        ]
+    },
+    {
+        "enumName": "BindTag",
+        "values": [
+            {
+                "name": "STATUS_VARIABLE_NAME",
+                "value": "status"
+            }
+        ]
+    },
+    {
+        "enumName": "MessageTag",
+        "values": [
+            {
+                "name": "DEFAULT_ARGUMENT_SEPARATOR",
+                "value": ","
+            }
+        ]
+    },
+    {
+        "enumName": "NestedPathTag",
+        "values": [
+            {
+                "name": "NESTED_PATH_VARIABLE_NAME",
+                "value": "nestedPath"
+            }
+        ]
+    },
+    {
+        "enumName": "RequestContextAwareTag",
+        "values": [
+            {
+                "name": "REQUEST_CONTEXT_PAGE_ATTRIBUTE",
+                "value": "org.springframework.web.servlet.tags.REQUEST_CONTEXT"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractDataBoundFormElementTag",
+        "values": [
+            {
+                "name": "NESTED_PATH_VARIABLE_NAME",
+                "value": "nestedPath"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractHtmlElementTag",
+        "values": [
+            {
+                "name": "CLASS_ATTRIBUTE",
+                "value": "class"
+            },
+            {
+                "name": "DIR_ATTRIBUTE",
+                "value": "dir"
+            },
+            {
+                "name": "LANG_ATTRIBUTE",
+                "value": "lang"
+            },
+            {
+                "name": "ONCLICK_ATTRIBUTE",
+                "value": "onclick"
+            },
+            {
+                "name": "ONDBLCLICK_ATTRIBUTE",
+                "value": "ondblclick"
+            },
+            {
+                "name": "ONKEYDOWN_ATTRIBUTE",
+                "value": "onkeydown"
+            },
+            {
+                "name": "ONKEYPRESS_ATTRIBUTE",
+                "value": "onkeypress"
+            },
+            {
+                "name": "ONKEYUP_ATTRIBUTE",
+                "value": "onkeyup"
+            },
+            {
+                "name": "ONMOUSEDOWN_ATTRIBUTE",
+                "value": "onmousedown"
+            },
+            {
+                "name": "ONMOUSEMOVE_ATTRIBUTE",
+                "value": "onmousemove"
+            },
+            {
+                "name": "ONMOUSEOUT_ATTRIBUTE",
+                "value": "onmouseout"
+            },
+            {
+                "name": "ONMOUSEOVER_ATTRIBUTE",
+                "value": "onmouseover"
+            },
+            {
+                "name": "ONMOUSEUP_ATTRIBUTE",
+                "value": "onmouseup"
+            },
+            {
+                "name": "STYLE_ATTRIBUTE",
+                "value": "style"
+            },
+            {
+                "name": "TABINDEX_ATTRIBUTE",
+                "value": "tabindex"
+            },
+            {
+                "name": "TITLE_ATTRIBUTE",
+                "value": "title"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractHtmlInputElementTag",
+        "values": [
+            {
+                "name": "ACCESSKEY_ATTRIBUTE",
+                "value": "accesskey"
+            },
+            {
+                "name": "DISABLED_ATTRIBUTE",
+                "value": "disabled"
+            },
+            {
+                "name": "ONBLUR_ATTRIBUTE",
+                "value": "onblur"
+            },
+            {
+                "name": "ONCHANGE_ATTRIBUTE",
+                "value": "onchange"
+            },
+            {
+                "name": "ONFOCUS_ATTRIBUTE",
+                "value": "onfocus"
+            },
+            {
+                "name": "READONLY_ATTRIBUTE",
+                "value": "readonly"
+            }
+        ]
+    },
+    {
+        "enumName": "ButtonTag",
+        "values": [
+            {
+                "name": "DISABLED_ATTRIBUTE",
+                "value": "disabled"
+            }
+        ]
+    },
+    {
+        "enumName": "ErrorsTag",
+        "values": [
+            {
+                "name": "MESSAGES_ATTRIBUTE",
+                "value": "messages"
+            },
+            {
+                "name": "SPAN_TAG",
+                "value": "span"
+            }
+        ]
+    },
+    {
+        "enumName": "FormTag",
+        "values": [
+            {
+                "name": "DEFAULT_COMMAND_NAME",
+                "value": "command"
+            }
+        ]
+    },
+    {
+        "enumName": "HiddenInputTag",
+        "values": [
+            {
+                "name": "DISABLED_ATTRIBUTE",
+                "value": "disabled"
+            }
+        ]
+    },
+    {
+        "enumName": "InputTag",
+        "values": [
+            {
+                "name": "ALT_ATTRIBUTE",
+                "value": "alt"
+            },
+            {
+                "name": "AUTOCOMPLETE_ATTRIBUTE",
+                "value": "autocomplete"
+            },
+            {
+                "name": "MAXLENGTH_ATTRIBUTE",
+                "value": "maxlength"
+            },
+            {
+                "name": "ONSELECT_ATTRIBUTE",
+                "value": "onselect"
+            },
+            {
+                "name": "SIZE_ATTRIBUTE",
+                "value": "size"
+            }
+        ]
+    },
+    {
+        "enumName": "OptionTag",
+        "values": [
+            {
+                "name": "DISPLAY_VALUE_VARIABLE_NAME",
+                "value": "displayValue"
+            },
+            {
+                "name": "VALUE_VARIABLE_NAME",
+                "value": "value"
+            }
+        ]
+    },
+    {
+        "enumName": "SelectTag",
+        "values": [
+            {
+                "name": "LIST_VALUE_PAGE_ATTRIBUTE",
+                "value": "org.springframework.web.servlet.tags.form.SelectTag.listValue"
+            }
+        ]
+    },
+    {
+        "enumName": "TextareaTag",
+        "values": [
+            {
+                "name": "COLS_ATTRIBUTE",
+                "value": "cols"
+            },
+            {
+                "name": "ONSELECT_ATTRIBUTE",
+                "value": "onselect"
+            },
+            {
+                "name": "ROWS_ATTRIBUTE",
+                "value": "rows"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractThemeResolver",
+        "values": [
+            {
+                "name": "ORIGINAL_DEFAULT_THEME_NAME",
+                "value": "theme"
+            }
+        ]
+    },
+    {
+        "enumName": "CookieThemeResolver",
+        "values": [
+            {
+                "name": "ORIGINAL_DEFAULT_THEME_NAME",
+                "value": "theme"
+            }
+        ]
+    },
+    {
+        "enumName": "ThemeChangeInterceptor",
+        "values": [
+            {
+                "name": "DEFAULT_PARAM_NAME",
+                "value": "theme"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractCachingViewResolver",
+        "values": [
+            {
+                "name": "DEFAULT_CACHE_LIMIT",
+                "value": "1024"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractTemplateView",
+        "values": [
+            {
+                "name": "SPRING_MACRO_REQUEST_CONTEXT_ATTRIBUTE",
+                "value": "springMacroRequestContext"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractView",
+        "values": [
+            {
+                "name": "DEFAULT_CONTENT_TYPE",
+                "value": "text/html;charset=ISO-8859-1"
+            }
+        ]
+    },
+    {
+        "enumName": "ResourceBundleViewResolver",
+        "values": [
+            {
+                "name": "DEFAULT_BASENAME",
+                "value": "views"
+            }
+        ]
+    },
+    {
+        "enumName": "UrlBasedViewResolver",
+        "values": [
+            {
+                "name": "FORWARD_URL_PREFIX",
+                "value": "forward:"
+            },
+            {
+                "name": "REDIRECT_URL_PREFIX",
+                "value": "redirect:"
+            }
+        ]
+    },
+    {
+        "enumName": "XmlViewResolver",
+        "values": [
+            {
+                "name": "DEFAULT_LOCATION",
+                "value": "/WEB-INF/views.xml"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractAtomFeedView",
+        "values": [
+            {
+                "name": "DEFAULT_FEED_TYPE",
+                "value": "atom_1.0"
+            }
+        ]
+    },
+    {
+        "enumName": "MappingJackson2JsonView",
+        "values": [
+            {
+                "name": "DEFAULT_CONTENT_TYPE",
+                "value": "application/json"
+            }
+        ]
+    },
+    {
+        "enumName": "ScriptTemplateView",
+        "values": [
+            {
+                "name": "DEFAULT_CONTENT_TYPE",
+                "value": "text/html"
+            }
+        ]
+    },
+    {
+        "enumName": "MappingJackson2XmlView",
+        "values": [
+            {
+                "name": "DEFAULT_CONTENT_TYPE",
+                "value": "application/xml"
+            }
+        ]
+    },
+    {
+        "enumName": "MarshallingView",
+        "values": [
+            {
+                "name": "DEFAULT_CONTENT_TYPE",
+                "value": "application/xml"
+            }
+        ]
+    },
+    {
+        "enumName": "WebSocketHttpHeaders",
+        "values": [
+            {
+                "name": "SEC_WEBSOCKET_ACCEPT",
+                "value": "Sec-WebSocket-Accept"
+            },
+            {
+                "name": "SEC_WEBSOCKET_EXTENSIONS",
+                "value": "Sec-WebSocket-Extensions"
+            },
+            {
+                "name": "SEC_WEBSOCKET_KEY",
+                "value": "Sec-WebSocket-Key"
+            },
+            {
+                "name": "SEC_WEBSOCKET_PROTOCOL",
+                "value": "Sec-WebSocket-Protocol"
+            },
+            {
+                "name": "SEC_WEBSOCKET_VERSION",
+                "value": "Sec-WebSocket-Version"
+            }
+        ]
+    },
+    {
+        "enumName": "StompSubProtocolHandler",
+        "values": [
+            {
+                "name": "CONNECTED_USER_HEADER",
+                "value": "user-name"
+            },
+            {
+                "name": "MINIMUM_WEBSOCKET_MESSAGE_SIZE",
+                "value": "16640"
+            }
+        ]
+    },
+    {
+        "enumName": "HttpSessionHandshakeInterceptor",
+        "values": [
+            {
+                "name": "HTTP_SESSION_ID_ATTR_NAME",
+                "value": "HTTP.SESSION.ID"
+            }
+        ]
+    },
+    {
+        "enumName": "AbstractSockJsSession",
+        "values": [
+            {
+                "name": "DISCONNECTED_CLIENT_LOG_CATEGORY",
+                "value": "org.springframework.web.socket.sockjs.DisconnectedClient"
+            }
+        ]
+    },
+    {
+        "enumName": "CookieGenerator",
+        "values": [
+            {
+                "name": "DEFAULT_COOKIE_PATH",
+                "value": "/"
+            }
+        ]
+    },
+    {
+        "enumName": "TagUtils",
+        "values": [
+            {
+                "name": "SCOPE_APPLICATION",
+                "value": "application"
+            },
+            {
+                "name": "SCOPE_PAGE",
+                "value": "page"
+            },
+            {
+                "name": "SCOPE_REQUEST",
+                "value": "request"
+            },
+            {
+                "name": "SCOPE_SESSION",
+                "value": "session"
+            }
+        ]
+    },
+    {
+        "enumName": "WebUtils",
+        "values": [
+            {
+                "name": "CONTENT_TYPE_CHARSET_PREFIX",
+                "value": ";charset="
+            },
+            {
+                "name": "DEFAULT_CHARACTER_ENCODING",
+                "value": "ISO-8859-1"
+            },
+            {
+                "name": "DEFAULT_WEB_APP_ROOT_KEY",
+                "value": "webapp.root"
+            },
+            {
+                "name": "ERROR_EXCEPTION_ATTRIBUTE",
+                "value": "jakarta.servlet.error.exception"
+            },
+            {
+                "name": "ERROR_EXCEPTION_TYPE_ATTRIBUTE",
+                "value": "jakarta.servlet.error.exception_type"
+            },
+            {
+                "name": "ERROR_MESSAGE_ATTRIBUTE",
+                "value": "jakarta.servlet.error.message"
+            },
+            {
+                "name": "ERROR_REQUEST_URI_ATTRIBUTE",
+                "value": "jakarta.servlet.error.request_uri"
+            },
+            {
+                "name": "ERROR_SERVLET_NAME_ATTRIBUTE",
+                "value": "jakarta.servlet.error.servlet_name"
+            },
+            {
+                "name": "ERROR_STATUS_CODE_ATTRIBUTE",
+                "value": "jakarta.servlet.error.status_code"
+            },
+            {
+                "name": "FORWARD_CONTEXT_PATH_ATTRIBUTE",
+                "value": "jakarta.servlet.forward.context_path"
+            },
+            {
+                "name": "FORWARD_PATH_INFO_ATTRIBUTE",
+                "value": "jakarta.servlet.forward.path_info"
+            },
+            {
+                "name": "FORWARD_QUERY_STRING_ATTRIBUTE",
+                "value": "jakarta.servlet.forward.query_string"
+            },
+            {
+                "name": "FORWARD_REQUEST_URI_ATTRIBUTE",
+                "value": "jakarta.servlet.forward.request_uri"
+            },
+            {
+                "name": "FORWARD_SERVLET_PATH_ATTRIBUTE",
+                "value": "jakarta.servlet.forward.servlet_path"
+            },
+            {
+                "name": "HTML_ESCAPE_CONTEXT_PARAM",
+                "value": "defaultHtmlEscape"
+            },
+            {
+                "name": "INCLUDE_CONTEXT_PATH_ATTRIBUTE",
+                "value": "jakarta.servlet.include.context_path"
+            },
+            {
+                "name": "INCLUDE_PATH_INFO_ATTRIBUTE",
+                "value": "jakarta.servlet.include.path_info"
+            },
+            {
+                "name": "INCLUDE_QUERY_STRING_ATTRIBUTE",
+                "value": "jakarta.servlet.include.query_string"
+            },
+            {
+                "name": "INCLUDE_REQUEST_URI_ATTRIBUTE",
+                "value": "jakarta.servlet.include.request_uri"
+            },
+            {
+                "name": "INCLUDE_SERVLET_PATH_ATTRIBUTE",
+                "value": "jakarta.servlet.include.servlet_path"
+            },
+            {
+                "name": "RESPONSE_ENCODED_HTML_ESCAPE_CONTEXT_PARAM",
+                "value": "responseEncodedHtmlEscape"
+            },
+            {
+                "name": "TEMP_DIR_CONTEXT_ATTRIBUTE",
+                "value": "jakarta.servlet.context.tempdir"
+            },
+            {
+                "name": "WEB_APP_ROOT_KEY_PARAM",
+                "value": "webAppRootKey"
+            }
+        ]
+    }
+]
